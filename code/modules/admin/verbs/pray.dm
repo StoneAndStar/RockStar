@@ -21,10 +21,10 @@
 	var/font_color = "purple"
 	var/prayer_type = "PRAYER"
 	var/deity
-	if(usr.job == "Preacher")
+	if(usr.job == "Chaplain")
 		cross.icon_state = "kingyellow"
 		font_color = "blue"
-		prayer_type = "SANCTIFIED PRAYER"
+		prayer_type = "CHAPLAIN PRAYER"
 		if(GLOB.deity)
 			deity = GLOB.deity
 	else if(iscultist(usr))
@@ -46,7 +46,7 @@
 		if(C.prefs.chat_toggles & CHAT_PRAYER)
 			to_chat(C, msg)
 			if(C.prefs.toggles & SOUND_PRAYERS)
-				if(usr.job == "Preacher")
+				if(usr.job == "Chaplain")
 					SEND_SOUND(C, sound('sound/effects/pray.ogg'))
 				else
 					SEND_SOUND(C, sound('sound/effects/ding.ogg'))

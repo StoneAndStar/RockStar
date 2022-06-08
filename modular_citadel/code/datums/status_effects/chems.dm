@@ -591,7 +591,7 @@
 
 	//role resistance
 	//Chaplains are already brainwashed by their god
-	if(owner.mind.assigned_role == "Preacher")
+	if(owner.mind.assigned_role == "Chaplain")
 		deltaResist *= 1.2
 	//Command staff has authority,
 	if(owner.mind.assigned_role in GLOB.command_positions)
