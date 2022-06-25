@@ -2809,21 +2809,17 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/tcoms)
 "akj" = (
-/obj/machinery/telecomms/server/presets/vault,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
 /area/f13/tcoms)
 "akk" = (
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "akl" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/f13/tcoms)
-"akm" = (
-/obj/machinery/telecomms/server/presets/legion,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/turf/closed/indestructible/f13/matrix,
 /area/f13/tcoms)
 "akn" = (
 /obj/structure/sink{
@@ -2880,24 +2876,12 @@
 /obj/structure/sink,
 /turf/closed/wall/f13/wood/house,
 /area/f13/farmhouse)
-"akx" = (
-/obj/machinery/telecomms/server/presets/town,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"aky" = (
-/obj/machinery/telecomms/server/presets/ncr,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
 "akz" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/farmhouse)
-"akA" = (
-/obj/machinery/telecomms/server/presets/enclave,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
 "akB" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -2988,18 +2972,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/farmhouse)
-"akQ" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/f13/tcoms)
-"akR" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/f13/tcoms)
 "akS" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/lootdrop/f13/armor/tier2,
@@ -3022,29 +2994,6 @@
 	icon_state = "whitebluerustychess"
 	},
 /area/f13/legioncamp)
-"akX" = (
-/obj/machinery/telecomms/server/presets/engineering,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"akY" = (
-/obj/machinery/telecomms/bus/preset_four,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"akZ" = (
-/obj/machinery/telecomms/processor/preset_three,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"ala" = (
-/obj/machinery/telecomms/server/presets/security,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"alb" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/f13/tcoms)
 "alc" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/yellow/side{
@@ -3088,22 +3037,6 @@
 /obj/item/cultivator,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
-"alk" = (
-/obj/machinery/telecomms/server/presets/common,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"all" = (
-/obj/machinery/telecomms/processor/preset_four,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"alm" = (
-/obj/machinery/telecomms/bus/preset_three,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"aln" = (
-/obj/machinery/telecomms/server/presets/command,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
 "alo" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
@@ -3147,18 +3080,6 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/farmhouse)
-"alx" = (
-/obj/machinery/blackbox_recorder,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"aly" = (
-/obj/machinery/telecomms/broadcaster/preset_right,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"alz" = (
-/obj/machinery/telecomms/receiver/preset_right,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
 "alA" = (
 /obj/machinery/computer/telecomms/server{
 	dir = 4;
@@ -3263,12 +3184,8 @@
 "alR" = (
 /turf/open/floor/plasteel/dark,
 /area/f13/tcoms)
-"alS" = (
-/obj/machinery/ntnet_relay,
-/turf/open/floor/circuit/telecomms/mainframe,
-/area/f13/tcoms)
 "alT" = (
-/obj/machinery/telecomms/hub/preset,
+/obj/machinery/telecomms/relay/preset/telecomms,
 /turf/open/floor/plasteel/vault/telecomms/mainframe{
 	dir = 8
 	},
@@ -3476,18 +3393,6 @@
 /obj/machinery/power/port_gen/pacman/super,
 /turf/open/floor/plating,
 /area/f13/farmhouse)
-"amw" = (
-/obj/machinery/telecomms/message_server,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"amx" = (
-/obj/machinery/telecomms/broadcaster/preset_left,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"amy" = (
-/obj/machinery/telecomms/receiver/preset_left,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
 "amz" = (
 /obj/structure/table,
 /obj/item/multitool,
@@ -3542,22 +3447,6 @@
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"amH" = (
-/obj/machinery/telecomms/server/presets/supply,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"amI" = (
-/obj/machinery/telecomms/bus/preset_two,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"amJ" = (
-/obj/machinery/telecomms/processor/preset_one,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"amK" = (
-/obj/machinery/telecomms/server/presets/medical,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
 "amL" = (
 /obj/machinery/computer/telecomms/monitor{
 	dir = 4;
@@ -3612,28 +3501,12 @@
 	},
 /turf/open/floor/plating,
 /area/f13/farmhouse)
-"amT" = (
-/obj/machinery/telecomms/server/presets/service,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"amU" = (
-/obj/machinery/telecomms/processor/preset_two,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
 "amV" = (
 /obj/structure/sign/warning/nosmoking{
 	pixel_y = -32
 	},
 /obj/machinery/light,
 /turf/open/floor/circuit/telecomms/mainframe,
-/area/f13/tcoms)
-"amW" = (
-/obj/machinery/telecomms/bus/preset_one,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
-"amX" = (
-/obj/machinery/telecomms/server/presets/science,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "amY" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -36093,10 +35966,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/mountain_bunker)
-"poa" = (
-/obj/machinery/telecomms/server/presets/ranger,
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
 "pod" = (
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/f13{
@@ -44135,15 +44004,15 @@ aaa
 aaa
 aaa
 aaa
-ajT
-ajT
-ajT
-ajT
-ajT
-ajT
-ajT
-ajT
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 ajT
 ajT
 ajT
@@ -44537,14 +44406,14 @@ aaa
 aaa
 aaa
 aaa
-ajT
-akc
-akc
-akc
-akc
-akc
-akc
-akc
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
 akc
 akc
@@ -44939,18 +44808,18 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
-aki
-aki
-aki
-aki
-akQ
-aki
-aki
 akk
 akk
-alS
+aki
 akk
 akk
 aki
@@ -45341,22 +45210,22 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
-akj
-akx
-akA
 akk
-akk
-akX
-alk
-alx
 akk
 aki
 akk
-amw
-amH
-amT
+akk
+akk
+akk
 akc
 ajT
 btC
@@ -45743,22 +45612,22 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
 akk
-akk
-akk
-akk
-akk
-akY
-all
-aly
 aki
 aki
 aki
-amx
-amI
-amU
+akk
+akk
+akk
 akc
 ajT
 btC
@@ -46145,15 +46014,15 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
-akl
-aki
-aki
-aki
-aki
-aki
-aki
 aki
 aki
 alT
@@ -46547,22 +46416,22 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
 akk
-akk
-akk
-akk
-akk
-akZ
-alm
-alz
 aki
 aki
 aki
-amy
-amJ
-amW
+akk
+akk
+akk
 akc
 ajT
 iUz
@@ -46949,22 +46818,22 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
-akm
-aky
-poa
-akk
-akk
-ala
-aln
 akk
 akk
 aki
 akk
 akk
-amK
-amX
+akk
+akk
 akc
 ajT
 iUz
@@ -47351,15 +47220,15 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
-aki
-aki
-aki
-aki
-akR
-aki
-aki
 akk
 alE
 alU
@@ -47753,16 +47622,16 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
 akc
 akc
-akc
-akc
-akc
-alb
-alo
-alo
+akj
 alF
 alV
 amg
@@ -48155,12 +48024,12 @@ aaa
 aaa
 aaa
 aaa
-ajT
-ajT
-ajT
-ajT
-ajT
-ajT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 akc
 alc
 alp
@@ -48562,7 +48431,7 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
 akc
 ald
 alq
@@ -48964,7 +48833,7 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
 akc
 ale
 alr
@@ -49366,7 +49235,7 @@ aaa
 aaa
 aaa
 aaa
-ajT
+aaa
 akc
 akc
 als
@@ -49768,8 +49637,8 @@ aaa
 aaa
 aaa
 aaa
+aaa
 ajT
-ajT
 akc
 akc
 akc
@@ -49777,7 +49646,7 @@ akc
 akc
 akc
 akc
-akc
+akl
 akc
 akc
 ajT

@@ -91,7 +91,7 @@
 /datum/job/enclave/enclavelt
 	title = "Enclave Lieutenant"
 	flag = F13USLT
-	total_positions = 1
+	total_positions = 0
 	spawn_positions = 1
 	access = list(ACCESS_ENCLAVE, ACCESS_CHANGE_IDS, ACCESS_ENCLAVE_COMMAND)
 	description = "You are probably the last operating cell of the Enclave in the US, as far as you know. Now that the lore is out of the way, just make the round fun. You set the policies and the attitude of the Enclave this week."
@@ -159,7 +159,7 @@
 /datum/job/enclave/f13gysergeant
 	title = "Enclave Gunnery Sergeant"
 	flag = F13USGYSGT
-	total_positions = 1
+	total_positions = 0
 	spawn_positions = 1
 	access = list(ACCESS_ENCLAVE, ACCESS_CHANGE_IDS, ACCESS_ENCLAVE_COMMAND)
 	description = "Second in command after Lieutenant, your role is to direct their orders directly to the sergeants and regular troops."
@@ -218,7 +218,7 @@
 /datum/job/enclave/Armoredinfantry
 	title = "Enclave Armored Infantry"
 	flag = F13USAI
-	total_positions = 1
+	total_positions = 0
 	spawn_positions = 1
 	description = "You are a specialist trained in the use of heavy equipment and X0-2 Power armor. Your job is to be he anchor of your unit."
 	supervisors = "The Lieutenant and the Sergeants"
@@ -274,8 +274,8 @@
 	flag = F13USSGT
 	total_positions = 2
 	spawn_positions = 2
-	description = "Entrusted with the command of the squads assigned to the bunker, your job is to assist the Lieutenant alongside the scientists."
-	supervisors = "The Lieutenant and the Gunnery Sergeant."
+	description = "Assigned to the bunker, your job is to guard not only it but the scientists within."
+	supervisors = ""	//Nobody is above them for Sunnyvale
 	outfit = /datum/outfit/job/enclave/peacekeeper/enclavesgt
 	exp_requirements = 1500
 
@@ -325,10 +325,10 @@
 /datum/job/enclave/f13specialist
 	title = "Enclave Specialist"
 	flag = F13USSPECIALIST
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 1
+	spawn_positions = 1
 	description = "You are an operative for the remnants of the Enclave. You, unlike the normal privates, have recieved specialist training in either engineering or medicine."
-	supervisors = "The Lieutenant and the Sergeants."
+	supervisors = "The Sergeants."
 	outfit = /datum/outfit/job/enclave/peacekeeper/f13specialist
 	exp_requirements = 800
 
@@ -381,8 +381,8 @@
 /datum/job/enclave/enclavespy
 	title = "Enclave Private"
 	flag = F13USPRIVATE
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are an operative for the remnants of the Enclave. Obey your Lieutenant. He sets the Enclave's policies."
 	supervisors = "The Lieutenant and the Sergeants"
 	outfit = /datum/outfit/job/enclave/peacekeeper/enclavespy
@@ -431,8 +431,8 @@
 	title = "Enclave Scientist"
 	flag = F13USSCIENTIST
 	access = list(ACCESS_ENCLAVE, ACCESS_ENCLAVE_COMMAND)
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 4
+	spawn_positions = 4
 	description = "You're responsible for the maintenance of the base, the knowledge you've accumulated over the years is the only thing keeping the remnants alive. You've dabbled in enough to be considered a Professor in your field of research, but they call you Doctor. Support your dwindling forces and listen to the Lieutenant."
 	supervisors = "Enclave Research and Development Division."
 	outfit = /datum/outfit/job/enclave/noncombat/enclavesci

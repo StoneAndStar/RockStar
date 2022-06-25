@@ -12,7 +12,7 @@ here's a tip, go search DEFINES/access.dm
 	department_flag = VAULT
 	exp_type = EXP_TYPE_VAULT
 	faction = FACTION_VAULT
-	maptype = "vault"
+	maptype = "sunnyvale"
 	mapexclude = list("standard")
 
 /datum/outfit/job/vault

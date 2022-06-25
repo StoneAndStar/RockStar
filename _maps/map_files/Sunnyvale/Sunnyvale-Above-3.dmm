@@ -56,6 +56,16 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
+"aO" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/f13/tcoms)
 "aP" = (
 /obj/machinery/door/airlock/medical{
 	name = "Clinic";
@@ -164,6 +174,14 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"cy" = (
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/f13/tcoms)
+"cA" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/f13/tcoms)
 "cB" = (
 /obj/machinery/light{
 	dir = 8
@@ -567,6 +585,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
+"kc" = (
+/obj/structure/table,
+/obj/item/multitool,
+/turf/open/floor/plasteel/yellow/side{
+	dir = 9
+	},
+/area/f13/tcoms)
 "kt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch{
@@ -686,6 +711,17 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"mb" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
+"ml" = (
+/obj/item/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = -35
+	},
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "my" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Barracks";
@@ -712,6 +748,12 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"mO" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "mT" = (
 /obj/machinery/light,
 /turf/open/floor/f13{
@@ -882,6 +924,14 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
+"pB" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/f13/tcoms)
 "pH" = (
 /obj/structure/railing{
 	layer = 4.1
@@ -938,6 +988,12 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/den)
+"qj" = (
+/turf/closed/wall/r_wall,
+/area/f13/tcoms)
+"qq" = (
+/turf/closed/indestructible/rock,
+/area/f13/tcoms)
 "qs" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/carpet/green,
@@ -1015,6 +1071,11 @@
 "rQ" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/den)
+"sb" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "so" = (
 /obj/structure/table,
 /obj/item/restraints/handcuffs/cable/zipties,
@@ -1045,6 +1106,14 @@
 "tb" = (
 /turf/open/floor/carpet/royalblack,
 /area/f13/ncr)
+"tB" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/f13/tcoms)
 "tD" = (
 /obj/structure/table/reinforced,
 /obj/item/taperecorder,
@@ -1072,6 +1141,10 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
+"tY" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/f13/tcoms)
 "ub" = (
 /obj/item/kirbyplants/random{
 	pixel_y = 8
@@ -1100,6 +1173,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
+"uA" = (
+/obj/machinery/status_display,
+/turf/closed/wall,
+/area/f13/tcoms)
 "uF" = (
 /obj/structure/rack,
 /obj/item/advanced_crafting_components/receiver,
@@ -1275,6 +1352,9 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"xL" = (
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "xR" = (
 /obj/structure/table,
 /obj/item/storage/box/gloves,
@@ -1310,6 +1390,21 @@
 /obj/structure/simple_door/metal/store,
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
+"yD" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Server Room";
+	req_access_txt = "61"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/f13/tcoms)
 "yG" = (
 /obj/structure/table/booth,
 /obj/effect/holodeck_effect/cards{
@@ -1526,6 +1621,13 @@
 /obj/structure/railing,
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
+"Cr" = (
+/obj/structure/table,
+/obj/item/radio/off,
+/turf/open/floor/plasteel/yellow/side{
+	dir = 10
+	},
+/area/f13/tcoms)
 "Ct" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_large,
@@ -1638,6 +1740,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"DL" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/f13/tcoms)
 "DR" = (
 /obj/structure/sink{
 	dir = 8;
@@ -1754,6 +1863,37 @@
 "Fp" = (
 /turf/open/floor/wood,
 /area/f13/powerplant)
+"Ft" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Server Room";
+	req_access_txt = "61"
+	},
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/f13/tcoms)
+"Fu" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/f13/tcoms)
+"Fw" = (
+/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/area/f13/tcoms)
+"FE" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Control Room";
+	req_access_txt = "19; 61"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "FI" = (
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
@@ -1803,10 +1943,22 @@
 	},
 /turf/open/floor/carpet/arcade,
 /area/f13/ncr)
+"Gk" = (
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "Gn" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"Gs" = (
+/obj/structure/table,
+/obj/item/folder/blue,
+/obj/item/pen/blue,
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "GB" = (
 /obj/structure/chair/sofa,
 /turf/open/floor/carpet/royalblack,
@@ -1868,6 +2020,21 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
+"HP" = (
+/obj/machinery/computer/telecomms/server{
+	dir = 4;
+	network = "tcommsat"
+	},
+/turf/open/floor/plasteel/yellow/side{
+	dir = 10
+	},
+/area/f13/tcoms)
+"HW" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/yellow/side{
+	dir = 9
+	},
+/area/f13/tcoms)
 "Ia" = (
 /turf/closed/wall/r_wall/rust,
 /area/f13/ncr)
@@ -1886,6 +2053,16 @@
 /obj/structure/table/wood/poker,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
+"Ij" = (
+/obj/machinery/requests_console{
+	announcementConsole = 1;
+	department = "Telecomms Admin";
+	departmentType = 5;
+	name = "Telecomms RC";
+	pixel_x = 30
+	},
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "Ik" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -1956,6 +2133,15 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
+"JV" = (
+/obj/machinery/computer/telecomms/monitor{
+	dir = 4;
+	network = "tcommsat"
+	},
+/turf/open/floor/plasteel/yellow/side{
+	dir = 8
+	},
+/area/f13/tcoms)
 "Kh" = (
 /obj/structure/railing{
 	dir = 8
@@ -2020,6 +2206,15 @@
 /obj/structure/table/wood/poker,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
+"Lo" = (
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/obj/machinery/light,
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "Lq" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -2043,6 +2238,12 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
+"LQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "LR" = (
 /turf/open/transparent/openspace{
 	name = "air";
@@ -2257,6 +2458,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"OB" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "OK" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -2278,6 +2487,16 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/ncr)
+"Pb" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/f13/tcoms)
 "Pe" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/terminal{
@@ -2292,6 +2511,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"Pj" = (
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'SERVER ROOM'.";
+	name = "SERVER ROOM"
+	},
+/turf/closed/wall,
+/area/f13/tcoms)
 "Pl" = (
 /turf/closed/wall/f13/store,
 /area/f13/followers)
@@ -2357,6 +2583,9 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"Ql" = (
+/turf/closed/indestructible/f13/matrix,
+/area/f13/tcoms)
 "Qw" = (
 /turf/closed/wall/f13/store/constructed,
 /area/f13/ncr)
@@ -2416,6 +2645,15 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/den)
+"Rl" = (
+/obj/item/radio/intercom{
+	dir = 8;
+	freerange = 1;
+	name = "Station Intercom (Telecomms)";
+	pixel_y = 26
+	},
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "Rm" = (
 /obj/item/paper_bin,
 /obj/item/pen,
@@ -2520,6 +2758,20 @@
 /obj/item/ship_in_a_bottle,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
+"SE" = (
+/obj/machinery/computer/message_monitor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/yellow/side{
+	dir = 8
+	},
+/area/f13/tcoms)
+"SH" = (
+/obj/machinery/telecomms/relay/preset/telecomms,
+/turf/open/floor/plasteel/vault/telecomms/mainframe{
+	dir = 8
+	},
+/area/f13/tcoms)
 "SI" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/sunglasses,
@@ -2620,6 +2872,11 @@
 /obj/structure/chair/f13foldupchair,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"Uv" = (
+/turf/open/floor/plasteel/vault{
+	dir = 5
+	},
+/area/f13/tcoms)
 "Ux" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -2631,6 +2888,13 @@
 /obj/item/stack/rods/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
+"UD" = (
+/obj/structure/sign/warning/nosmoking{
+	pixel_y = -32
+	},
+/obj/machinery/light,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/f13/tcoms)
 "UF" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -2671,6 +2935,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"VL" = (
+/obj/machinery/light_switch{
+	pixel_x = 27
+	},
+/turf/open/floor/plasteel,
+/area/f13/tcoms)
 "VW" = (
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
@@ -113862,7 +114132,7 @@ sM
 sM
 sM
 sM
-rA
+sM
 op
 op
 op
@@ -114264,7 +114534,7 @@ sM
 sM
 sM
 sM
-rA
+sM
 op
 op
 op
@@ -114666,7 +114936,7 @@ sM
 sM
 sM
 sM
-rA
+sM
 op
 op
 op
@@ -115068,7 +115338,7 @@ sM
 sM
 sM
 sM
-rA
+sM
 op
 op
 op
@@ -115470,7 +115740,7 @@ sM
 sM
 sM
 sM
-rA
+op
 op
 op
 op
@@ -115872,7 +116142,7 @@ sM
 sM
 sM
 sM
-rA
+op
 op
 op
 op
@@ -116272,9 +116542,9 @@ sM
 sM
 sM
 sM
-sM
-sM
-rA
+op
+op
+op
 op
 op
 op
@@ -116670,13 +116940,13 @@ op
 sM
 sM
 sM
-sM
-sM
-sM
-sM
-sM
-sM
-rA
+op
+op
+op
+op
+op
+op
+op
 op
 op
 op
@@ -117070,13 +117340,13 @@ op
 op
 op
 op
-sM
-sM
-sM
-sM
-sM
-sM
-sM
+op
+op
+op
+op
+op
+op
+op
 op
 op
 op
@@ -117475,17 +117745,17 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
 "}
 (286,1,1) = {"
 vr
@@ -117877,17 +118147,17 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+qj
+qj
+qj
+qj
+qj
+qj
+qj
+qj
+qq
 "}
 (287,1,1) = {"
 vr
@@ -118279,17 +118549,17 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+Fw
+Fw
+cy
+Fw
+Fw
+cy
+cy
+qj
+qq
 "}
 (288,1,1) = {"
 vr
@@ -118681,17 +118951,17 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+Fw
+Fw
+cy
+Fw
+Fw
+Fw
+Fw
+qj
+qq
 "}
 (289,1,1) = {"
 vr
@@ -119083,17 +119353,17 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+Fw
+cy
+cy
+cy
+Fw
+Fw
+Fw
+qj
+qq
 "}
 (290,1,1) = {"
 vr
@@ -119472,6 +119742,7 @@ sM
 sM
 sM
 sM
+sM
 op
 op
 op
@@ -119484,18 +119755,17 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+cy
+cy
+SH
+cy
+cy
+cy
+UD
+qj
+qq
 "}
 (291,1,1) = {"
 vr
@@ -119887,17 +120157,17 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+Fw
+cy
+cy
+cy
+Fw
+Fw
+Fw
+qj
+qq
 "}
 (292,1,1) = {"
 vr
@@ -120289,17 +120559,17 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+Fw
+Fw
+cy
+Fw
+Fw
+Fw
+Fw
+qj
+qq
 "}
 (293,1,1) = {"
 vr
@@ -120689,19 +120959,19 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qq
+qq
+qj
+Fw
+Pb
+yD
+Fu
+Fw
+cy
+cy
+qj
+qq
 "}
 (294,1,1) = {"
 vr
@@ -121091,19 +121361,19 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+qj
+qj
+DL
+tB
+Uv
+aO
+pB
+pB
+cA
+qj
+qq
 "}
 (295,1,1) = {"
 vr
@@ -121493,19 +121763,19 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+HW
+SE
+HP
+uA
+Ft
+Pj
+kc
+JV
+Cr
+qj
+qq
 "}
 (296,1,1) = {"
 vr
@@ -121895,19 +122165,19 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+Rl
+Gk
+xL
+tY
+LQ
+xL
+xL
+Gk
+ml
+qj
+qq
 "}
 (297,1,1) = {"
 vr
@@ -122297,19 +122567,19 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+mO
+xL
+xL
+FE
+xL
+xL
+xL
+xL
+Lo
+qj
+qq
 "}
 (298,1,1) = {"
 vr
@@ -122699,19 +122969,19 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qj
+qj
+sb
+Gs
+tY
+mb
+Ij
+VL
+xL
+OB
+qj
+qq
 "}
 (299,1,1) = {"
 vr
@@ -123101,19 +123371,19 @@ op
 op
 op
 op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-op
-vr
+qq
+qq
+qj
+qj
+qj
+qj
+qj
+qj
+qj
+Ql
+qj
+qj
+qq
 "}
 (300,1,1) = {"
 vr
@@ -123504,16 +123774,16 @@ vr
 vr
 vr
 vr
-vr
-vr
-vr
-vr
-vr
-vr
-vr
-vr
-vr
-vr
-vr
-vr
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
 "}

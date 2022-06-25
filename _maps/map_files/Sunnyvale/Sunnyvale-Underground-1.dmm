@@ -5217,7 +5217,7 @@
 	},
 /area/f13/building)
 "hjW" = (
-/obj/machinery/telecomms/server/presets/den,
+/obj/machinery/telecomms/server/presets/ranger,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "hkx" = (
@@ -11550,7 +11550,7 @@
 	},
 /area/f13/building)
 "pjO" = (
-/obj/machinery/telecomms/server/presets/bos,
+/obj/machinery/telecomms/server/presets/town,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "pka" = (
@@ -12122,6 +12122,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/enclave)
+"pPo" = (
+/obj/machinery/telecomms/server/presets/followers,
+/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/area/f13/tcoms)
 "pPr" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	color = "#e4e4e4"
@@ -134880,7 +134884,7 @@ xmb
 vQK
 pjO
 weK
-xJT
+pPo
 xJT
 dkv
 uIq
