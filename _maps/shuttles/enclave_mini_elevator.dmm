@@ -15,7 +15,7 @@
 	dwidth = 1;
 	height = 3;
 	id = "enclave_mini_elevator";
-	name = "Enclave Elevator";
+	name = "Enclave Mini Elevator";
 	width = 3
 	},
 /obj/structure/railing{
