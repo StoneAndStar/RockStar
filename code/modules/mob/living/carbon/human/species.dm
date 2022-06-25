@@ -99,6 +99,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 	var/obj/item/mutanthands
 	var/obj/item/organ/tongue/mutanttongue = /obj/item/organ/tongue
 	var/obj/item/organ/tail/mutanttail = null
+	var/obj/item/organ/foreskin/mutantforeskin = /obj/item/organ/foreskin
 
 	var/obj/item/organ/liver/mutantliver
 	var/obj/item/organ/stomach/mutantstomach
@@ -210,6 +211,17 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 	var/should_have_liver = !(NOLIVER in species_traits)
 	var/should_have_stomach = !(NOSTOMACH in species_traits)
 	var/should_have_tail = mutanttail
+	var/should_have_foreskin = FALSE
+
+	if(C.gender == MALE)
+		should_have_foreskin = TRUE
+
+	if(foreskin && (!should_have_foreskin || replace_current))
+		foreskin.Remove(C,1)
+		QDEL_NULL(foreskin)
+	if(should_have_foreskin && !foreskin)
+		foreskin = new()
+		foreskin.Insert(C)
 
 	if(brain && (replace_current || !should_have_brain))
 		if(!brain.decoy_override)//Just keep it if it's fake
