@@ -14,7 +14,7 @@
 /obj/docking_port/mobile/elevator{
 	dwidth = 1;
 	height = 3;
-	id = "enclave_elevator";
+	id = "enclave_mini_elevator";
 	name = "Enclave Elevator";
 	width = 3
 	},
