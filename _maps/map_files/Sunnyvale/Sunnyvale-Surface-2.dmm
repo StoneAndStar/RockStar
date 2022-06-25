@@ -2822,7 +2822,7 @@
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/tcoms)
 "akm" = (
-/obj/machinery/telecomms/server/presets/den,
+/obj/machinery/telecomms/server/presets/legion,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "akn" = (
@@ -2881,7 +2881,7 @@
 /turf/closed/wall/f13/wood/house,
 /area/f13/farmhouse)
 "akx" = (
-/obj/machinery/telecomms/server/presets/bos,
+/obj/machinery/telecomms/server/presets/town,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "aky" = (
@@ -36093,6 +36093,10 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/mountain_bunker)
+"poa" = (
+/obj/machinery/telecomms/server/presets/ranger,
+/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/area/f13/tcoms)
 "pod" = (
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/f13{
@@ -46949,7 +46953,7 @@ ajT
 akc
 akm
 aky
-akk
+poa
 akk
 akk
 ala
