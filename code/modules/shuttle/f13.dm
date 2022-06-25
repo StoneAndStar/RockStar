@@ -106,7 +106,7 @@
 	flags_1 = NODECONSTRUCT_1
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
-/obj/machinery/computer/shuttle/enclaveelevator
+/obj/machinery/computer/shuttle/enclaveminielevator
 	name = "US Army mini elevator controls"
 	desc = "Controls the mini elevator. Has lots of stars and stripes."
 	icon_screen = "shuttle"
