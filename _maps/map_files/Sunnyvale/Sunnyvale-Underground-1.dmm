@@ -834,13 +834,6 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"blU" = (
-/obj/structure/ladder/unbreakable{
-	height = 1;
-	id = "NCR MINE"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "boj" = (
 /obj/machinery/light{
 	dir = 1;
@@ -976,13 +969,6 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/bunker)
-"bAh" = (
-/obj/structure/ladder/unbreakable{
-	height = 1;
-	id = "LEGION MINE"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "bAj" = (
 /obj/item/clothing/head/helmet/roman/fake,
 /turf/open/indestructible/ground/inside/mountain,
@@ -1036,6 +1022,13 @@
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
+"bGr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/enclave)
 "bGW" = (
 /obj/machinery/door/poddoor/preopen{
 	id = 105
@@ -1894,6 +1887,12 @@
 	},
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
+"cFv" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/enclave)
 "cFK" = (
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
@@ -3832,13 +3831,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/closed/mineral/random/low_chance,
 /area/f13/underground/cave)
-"ftm" = (
-/obj/item/twohanded/required/kirbyplants/random,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/carpet/black,
-/area/f13/enclave)
 "fuf" = (
 /obj/structure/simple_door/metal/ventilation,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -3924,12 +3916,6 @@
 /obj/effect/spawner/bundle/f13/armor/combat/mk2,
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
-"fAt" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
-	},
-/area/f13/enclave)
 "fAv" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -4459,6 +4445,12 @@
 /obj/machinery/light,
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
+"gmi" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "gmJ" = (
 /obj/structure/flora/rock/jungle,
 /obj/structure/destructible/tribal_torch/wall/lit{
@@ -5682,6 +5674,9 @@
 /obj/item/stack/rods/ten,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"hKS" = (
+/turf/closed/indestructible/f13/matrix,
+/area/f13/tcoms)
 "hLp" = (
 /obj/structure/barricade/wooden/planks/pregame,
 /obj/structure/decoration/rag{
@@ -6169,12 +6164,12 @@
 /area/f13/bunker)
 "iqo" = (
 /obj/docking_port/stationary{
-	area_type = /area/f13/underground/enclave_base;
+	area_type = /area/f13/;
 	dwidth = 1;
 	height = 2;
-	id = "bos_elevator_down";
-	name = "bos elevator down";
-	roundstart_template = /datum/map_template/shuttle/bos/elevator;
+	id = "enclave_elevator_down";
+	name = "enclave elevator down";
+	roundstart_template = /datum/map_template/shuttle/enclave_mini_elevator;
 	width = 2
 	},
 /turf/open/floor/plasteel/elevatorshaft,
@@ -6192,13 +6187,6 @@
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/mineral/uranium,
 /area/f13/building)
-"irQ" = (
-/obj/item/flashlight/lantern,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "itk" = (
 /obj/structure/closet/crate/wooden,
 /obj/item/gun/ballistic/automatic/smg/p90,
@@ -6363,6 +6351,13 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"iEQ" = (
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "NCR MINE"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "iEU" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -6441,9 +6436,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/building)
-"iKe" = (
-/turf/closed/indestructible/f13/matrix,
-/area/f13/tcoms)
 "iKR" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
@@ -7116,13 +7108,6 @@
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/mineral/uranium,
 /area/f13/building)
-"jAy" = (
-/obj/structure/ladder/unbreakable{
-	height = 1;
-	id = "mine1"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "jAz" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -7395,10 +7380,6 @@
 	color = "#e4e4e4"
 	},
 /area/f13/enclave)
-"jNW" = (
-/obj/machinery/mineral/ore_redemption,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "jOr" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -8065,6 +8046,13 @@
 /obj/effect/spawner/lootdrop/f13/armor/tier3,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"kIl" = (
+/obj/structure/table,
+/obj/structure/bedsheetbin/towel,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "floorrustysolid"
+	},
+/area/f13/enclave)
 "kIv" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/item/storage/box/drinkingglasses,
@@ -8130,13 +8118,6 @@
 	},
 /turf/open/floor/wood/f13/stage_r,
 /area/f13/building)
-"kKO" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
-	},
-/area/f13/enclave)
 "kLu" = (
 /obj/structure/wreck/trash/two_tire,
 /turf/open/indestructible/ground/inside/subway,
@@ -8345,13 +8326,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
-"laO" = (
-/obj/structure/table,
-/obj/structure/bedsheetbin/towel,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/enclave)
 "lbh" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood{
@@ -8688,6 +8662,14 @@
 /obj/structure/bed/mattress,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/building)
+"ltj" = (
+/obj/structure/rack,
+/obj/item/mining_scanner,
+/obj/item/pickaxe,
+/obj/item/storage/bag/ore,
+/obj/item/flashlight/lantern,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "ltY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/nest/raider/boss{
@@ -9542,12 +9524,6 @@
 /obj/structure/barricade/wooden,
 /turf/open/floor/wood/f13/oak,
 /area/f13/tunnel)
-"mIt" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "mIy" = (
 /obj/structure/chair/wood/worn,
 /obj/effect/decal/cleanable/dirt{
@@ -10023,6 +9999,13 @@
 /obj/machinery/door/window/westleft,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/enclave)
+"nox" = (
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "LEGION MINE"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "noO" = (
 /obj/structure/closet/crate/wooden,
 /obj/effect/spawner/lootdrop/f13/blueprintVHighBallistics,
@@ -12699,10 +12682,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building)
-"qxy" = (
-/obj/structure/ore_box,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "qxG" = (
 /obj/structure/decoration/rag{
 	icon_state = "skulls"
@@ -14203,6 +14182,13 @@
 /obj/effect/landmark/start/f13/uslightduty,
 /turf/open/floor/plasteel/dark,
 /area/f13/enclave)
+"sjO" = (
+/obj/item/flashlight/lantern,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "sjZ" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
@@ -15523,6 +15509,13 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/building)
+"tLR" = (
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "mine1"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "tLW" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/simple_door/dirtyglass,
@@ -16946,10 +16939,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"vpT" = (
-/obj/machinery/mineral/equipment_vendor,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "vqt" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_2"
@@ -17034,8 +17023,7 @@
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
 "vus" = (
-/obj/structure/bedsheetbin,
-/obj/structure/table,
+/obj/structure/dresser,
 /turf/open/floor/plasteel/darkyellow/side{
 	dir = 4
 	},
@@ -17685,6 +17673,10 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"wfz" = (
+/obj/machinery/mineral/ore_redemption,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "wfF" = (
 /obj/machinery/computer/telecomms/monitor{
 	dir = 4;
@@ -18024,6 +18016,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/start/f13/usai,
 /turf/open/floor/carpet/black,
 /area/f13/enclave)
 "wBo" = (
@@ -18176,6 +18169,10 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
+"wLw" = (
+/obj/structure/ore_box,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "wMr" = (
 /obj/machinery/hydroponics/soil/pot,
 /turf/open/floor/wood/f13/oak,
@@ -18637,6 +18634,13 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
+"xnu" = (
+/obj/item/twohanded/required/kirbyplants/random,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/carpet/black,
+/area/f13/enclave)
 "xon" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -18810,14 +18814,6 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/bunker)
-"xyR" = (
-/obj/structure/rack,
-/obj/item/mining_scanner,
-/obj/item/pickaxe,
-/obj/item/storage/bag/ore,
-/obj/item/flashlight/lantern,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/underground/cave)
 "xza" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -19387,6 +19383,10 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
+"yfV" = (
+/obj/machinery/mineral/equipment_vendor,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/underground/cave)
 "ygp" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -31911,7 +31911,7 @@ fUC
 fUC
 fUC
 fUC
-qxy
+wLw
 rRk
 rRk
 rRk
@@ -32715,7 +32715,7 @@ fUC
 fUC
 fUC
 rRk
-blU
+iEQ
 rRk
 fUC
 fUC
@@ -80595,7 +80595,7 @@ wZB
 heD
 wZB
 lqp
-fAt
+cFv
 sZM
 sZM
 uOT
@@ -82203,7 +82203,7 @@ wZB
 heD
 nHp
 tpH
-kKO
+bGr
 sZM
 sZM
 rRk
@@ -89041,7 +89041,7 @@ uqp
 tSx
 tSx
 tdC
-ftm
+xnu
 sZM
 sZM
 fUC
@@ -90233,7 +90233,7 @@ tsx
 dNv
 wgy
 sZM
-laO
+kIl
 sxX
 qWq
 eVd
@@ -104123,7 +104123,7 @@ fUC
 fUC
 rRk
 rRk
-jNW
+wfz
 rRk
 fUC
 dPp
@@ -104523,11 +104523,11 @@ fUC
 fUC
 fUC
 fUC
-mIt
+gmi
 rRk
 rRk
 rRk
-qxy
+wLw
 fUC
 fUC
 fUC
@@ -105328,11 +105328,11 @@ fUC
 fUC
 fUC
 dVk
-xyR
+ltj
 rRk
 rRk
 rRk
-qxy
+wLw
 fUC
 fUC
 fUC
@@ -105730,10 +105730,10 @@ fUC
 fUC
 fUC
 dVk
-xyR
+ltj
 rRk
 rRk
-jAy
+tLR
 rRk
 fUC
 fUC
@@ -106133,10 +106133,10 @@ fUC
 fUC
 dVk
 dVk
-vpT
-irQ
+yfV
+sjO
 rRk
-qxy
+wLw
 fUC
 fUC
 fUC
@@ -137718,7 +137718,7 @@ fUC
 fUC
 fUC
 rRk
-bAh
+nox
 rRk
 fUC
 fUC
@@ -139311,7 +139311,7 @@ xmb
 xmb
 xmb
 xmb
-iKe
+hKS
 xmb
 xmb
 rQf
