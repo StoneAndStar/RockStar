@@ -5,7 +5,7 @@
 	layer = 4.1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/enclave_elevator)
+/area/shuttle/enclave_mini_elevator)
 "h" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 0;
@@ -22,7 +22,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/enclave_elevator)
+/area/shuttle/enclave_mini_elevator)
 "C" = (
 /obj/structure/railing{
 	dir = 5;
@@ -30,7 +30,7 @@
 	},
 /obj/machinery/computer/shuttle/enclaveminielevator,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/enclave_elevator)
+/area/shuttle/enclave_mini_elevator)
 "Y" = (
 /obj/structure/chair/f13foldupchair,
 /obj/structure/railing{
@@ -38,7 +38,7 @@
 	layer = 2.3
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/enclave_elevator)
+/area/shuttle/enclave_mini_elevator)
 
 (1,1,1) = {"
 Y
