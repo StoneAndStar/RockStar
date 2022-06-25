@@ -24,11 +24,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/enclave_elevator)
 "C" = (
-/obj/machinery/computer/shuttle/enclaveelevator,
 /obj/structure/railing{
 	dir = 5;
 	layer = 2.3
 	},
+/obj/machinery/computer/shuttle/enclaveminielevator,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/enclave_elevator)
 "Y" = (
