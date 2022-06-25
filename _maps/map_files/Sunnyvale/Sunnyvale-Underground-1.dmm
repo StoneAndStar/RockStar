@@ -14009,7 +14009,7 @@
 /turf/open/floor/wood,
 /area/f13/building)
 "rZF" = (
-/obj/machinery/computer/shuttle/boselevator{
+/obj/machinery/computer/shuttle/enclaveminielevator{
 	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{

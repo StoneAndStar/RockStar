@@ -26735,10 +26735,10 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/prison)
 "bHg" = (
-/obj/machinery/computer/shuttle/boselevator{
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/computer/shuttle/enclaveminielevator{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
