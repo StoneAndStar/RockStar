@@ -259,7 +259,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 //FALLOUT
 /obj/item/radio/headset/headset_overseer
 	name = "\proper the overseer's radio headset"
-	desc = "This is used by the vault overseer.\nChannels are as follows: :i - vault, :c - command, :s - security, :e - engineering, :m - medical, :n - science."
+	desc = "This is used by the vault overseer.\nChannels are as follows: :i - vault, :c - command, :s - security."
 	icon_state = "com_headset"
 	keyslot = new /obj/item/encryptionkey/headset_overseer
 

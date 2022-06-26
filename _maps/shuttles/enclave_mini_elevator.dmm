@@ -13,10 +13,10 @@
 	},
 /obj/docking_port/mobile/elevator{
 	dwidth = 1;
-	height = 3;
+	height = 2;
 	id = "enclave_mini_elevator";
 	name = "Enclave Mini Elevator";
-	width = 3
+	width = 2
 	},
 /obj/structure/railing{
 	dir = 4

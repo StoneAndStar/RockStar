@@ -112,7 +112,7 @@
 	icon_screen = "shuttle"
 	icon_keyboard = "tech_key"
 	light_color = LIGHT_COLOR_CYAN
-	circuit = /obj/item/circuitboard/computer/enclave_control
+	circuit = /obj/item/circuitboard/computer/enclave_mini_control
 	shuttleId = "enclave_mini_elevator"
 	possible_destinations = "enclave_elevator_down;enclave_elevator_top"
 	flags_1 = NODECONSTRUCT_1

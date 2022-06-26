@@ -88,7 +88,6 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 
 "Legion Centurion",
 "Legion Explorer",
-"Legion Slavemaster",
 "Legion Veteran Decanus",
 "Veteran Legionnaire",
 "Legion Prime Decanus",
@@ -97,6 +96,7 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 "Legion Scout",
 "Legion Auxilia",
 "Legion Slave",
+"Legion Slavemaster",
 
 "Mayor",
 "Chief of Police",
@@ -304,9 +304,9 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_SILICON = list("titles" = list("AI","Cyborg")),
 	EXP_TYPE_SERVICE = list("titles" = civilian_positions),
 
-	EXP_TYPE_FALLOUT = list("titles" = brotherhood_positions | oasis_positions | legion_positions | ncr_positions | vault_positions | wasteland_positions | tribal_positions | followers_positions | enclave_positions),
+	EXP_TYPE_FALLOUT = list("titles" = oasis_positions | legion_positions | ncr_positions | vault_positions | wasteland_positions | followers_positions | enclave_positions),
 
-	EXP_TYPE_OUTLAW = list("titles" = list("Outlaw","Den Mob Boss","Den Mob Enforcer","Den Doctor",)),
+	EXP_TYPE_OUTLAW = list("titles" = list("Outlaw",)),
 	EXP_TYPE_BROTHERHOOD = list("titles" = brotherhood_positions),
 	EXP_TYPE_OASIS = list("titles" = oasis_positions ),
 	EXP_TYPE_LEGION = list("titles" = legion_positions),
