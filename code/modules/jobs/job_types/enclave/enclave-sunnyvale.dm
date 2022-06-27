@@ -148,7 +148,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	description = "You are an operative for the remnants of the Enclave. You, unlike the normal privates, have recieved specialist training in either engineering or medicine."
-	supervisors = "The Sergeants."
+	supervisors = "The Sergeants."	//Change this if needed, idk jack and shit about military ranking
 	outfit = /datum/outfit/job/enclave/peacekeeper/f13specialist
 	exp_requirements = 800
 
