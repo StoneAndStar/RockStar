@@ -87,187 +87,7 @@
 		H.mind.AddSpell(S)
 
 
-//Lieutenant
-/datum/job/enclave/enclavelt
-	title = "Enclave Lieutenant"
-	flag = F13USLT
-	total_positions = 0
-	spawn_positions = 1
-	access = list(ACCESS_ENCLAVE, ACCESS_CHANGE_IDS, ACCESS_ENCLAVE_COMMAND)
-	description = "You are probably the last operating cell of the Enclave in the US, as far as you know. Now that the lore is out of the way, just make the round fun. You set the policies and the attitude of the Enclave this week."
-	supervisors = "Enclave Department of the Army."
-	outfit = /datum/outfit/job/enclave/peacekeeper/enclavelt
-	exp_type = EXP_TYPE_ENCLAVE
-	exp_requirements = 3000
-
-	loadout_options = list(
-		/datum/outfit/loadout/lt_ballistics, // FN FAL and Deagle
-		/datum/outfit/loadout/lt_plasma, // Plasma Rifle and Plasma Glock
-		)
-
-
-/datum/outfit/job/enclave/peacekeeper/enclavelt
-	name = "Enclave Lieutenant"
-	jobtype = /datum/job/enclave/enclavelt
-
-	head = /obj/item/clothing/head/helmet/f13/enclave/officer
-	uniform = /obj/item/clothing/under/f13/enclave/officer
-	suit = /obj/item/clothing/suit/armor/f13/enclavetrenchcoat
-	accessory = /obj/item/clothing/accessory/ncr/LT1
-	id = /obj/item/card/id/dogtag/enclave/officer
-	ears = /obj/item/radio/headset/headset_enclave/command
-
-	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak/super = 3,
-		/obj/item/grenade/flashbang = 1,
-		/obj/item/pda = 1,
-		/obj/item/storage/bag/money/small/wastelander = 1,
-		/obj/item/melee/onehanded/knife/survival = 1,
-		)
-
-/datum/outfit/loadout/lt_ballistics
-	name = "Shiny Bullet"
-	suit_store = /obj/item/gun/ballistic/automatic/fnfal
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m762 = 2,
-		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
-		/obj/item/ammo_box/magazine/m44 = 2,
-		)
-
-/datum/outfit/loadout/lt_plasma
-	name = "Never Forgotten"
-	suit_store = /obj/item/gun/energy/laser/plasma
-	backpack_contents = list(
-		/obj/item/stock_parts/cell/ammo/mfc = 2,
-		/obj/item/gun/energy/laser/plasma/glock = 1,
-		/obj/item/stock_parts/cell/ammo/ec = 2,
-		)
-
-/datum/outfit/job/enclave/peacekeeper/enclavelt/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_PA_WEAR, src)
-	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-	if(H.mind)
-		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
-		H.mind.AddSpell(S)
-
-
-// Gunnery Sergeant
-
-/datum/job/enclave/f13gysergeant
-	title = "Enclave Gunnery Sergeant"
-	flag = F13USGYSGT
-	total_positions = 0
-	spawn_positions = 1
-	access = list(ACCESS_ENCLAVE, ACCESS_CHANGE_IDS, ACCESS_ENCLAVE_COMMAND)
-	description = "Second in command after Lieutenant, your role is to direct their orders directly to the sergeants and regular troops."
-	supervisors = "The Lieutenant."
-	outfit = /datum/outfit/job/enclave/peacekeeper/f13gysergeant
-	exp_type = EXP_TYPE_ENCLAVE
-	exp_requirements = 2000
-
-	loadout_options = list(
-		/datum/outfit/loadout/gysgt_ballistics, // Assault carbine
-		/datum/outfit/loadout/gysgt_melee, // Prewar ripper
-		)
-
-/datum/outfit/job/enclave/peacekeeper/f13gysergeant
-	name = "Enclave Gunnery Sergeant"
-	jobtype = /datum/job/enclave/f13gysergeant
-	head = /obj/item/clothing/head/helmet/f13/enclave/marine
-	suit = /obj/item/clothing/suit/armor/f13/enclave/marine
-	accessory = /obj/item/clothing/accessory/enclave/master_sergeant
-
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m45exp = 2,
-		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
-		/obj/item/grenade/flashbang = 1,
-		/obj/item/pda = 1,
-		/obj/item/storage/bag/money/small/wastelander = 1,
-		/obj/item/melee/onehanded/knife/survival = 1,
-		)
-
-/datum/outfit/loadout/gysgt_ballistics
-	name = "Assault Kit"
-	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m5mm = 2,
-		)
-
-/datum/outfit/loadout/gysgt_melee
-	name = "Mameluke"
-	suit_store = /obj/item/melee/powered/ripper/prewar
-	backpack_contents = list(
-		/obj/item/book/granter/trait/bigleagues = 1,
-		)
-
-/datum/outfit/job/enclave/peacekeeper/f13gysergeant/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-
-
-//Armored Infantry
-
-
-/datum/job/enclave/Armoredinfantry
-	title = "Enclave Armored Infantry"
-	flag = F13USAI
-	total_positions = 0
-	spawn_positions = 1
-	description = "You are a specialist trained in the use of heavy equipment and X0-2 Power armor. Your job is to be he anchor of your unit."
-	supervisors = "The Lieutenant and the Sergeants"
-	outfit = /datum/outfit/job/enclave/peacekeeper/Armoredinfantry
-	exp_type = EXP_TYPE_ENCLAVE
-	exp_requirements = 2000
-
-	loadout_options = list(
-		/datum/outfit/loadout/inf_minigun, // minigun
-		/datum/outfit/loadout/inf_gatling, // Laser gatling
-		)
-
-/datum/outfit/job/enclave/peacekeeper/Armoredinfantry
-	name = "Enclave Armored Infantry"
-	jobtype = /datum/job/enclave/Armoredinfantry
-	head = /obj/item/clothing/head/helmet/f13/power_armor/x02helmet
-	suit = /obj/item/clothing/suit/armor/f13/power_armor/x02
-	accessory = /obj/item/clothing/accessory/enclave/specialist
-
-	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
-		/obj/item/grenade/flashbang = 1,
-		/obj/item/pda = 1,
-		/obj/item/storage/bag/money/small/wastelander = 1,
-		/obj/item/melee/onehanded/knife/survival = 1,
-		)
-
-/datum/outfit/loadout/inf_minigun
-	name = "CZ53 personal minigun"
-	backpack_contents = list(
-		/obj/item/minigunpackbal5mm = 1,
-		)
-
-/datum/outfit/loadout/inf_gatling
-	name = "Laser Gatling"
-	suit_store = 	/obj/item/minigunpack
-	backpack_contents = list(
-		/obj/item/stock_parts/cell/ammo/ecp = 2,
-		)
-
-/datum/outfit/job/enclave/peacekeeper/Armoredinfantry/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_PA_WEAR, src)
-	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-
-
-//Sergeant
+//Sergeant (These are meant to be the bodyguards of the scientists and bunker)
 
 /datum/job/enclave/enclavesgt
 	title = "Enclave Sergeant"
@@ -320,7 +140,7 @@
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
-//Specialist
+//Specialist (Turn this into the scientist's leader?)
 
 /datum/job/enclave/f13specialist
 	title = "Enclave Specialist"
@@ -376,53 +196,6 @@
 		/obj/item/shovel/trench = 1
 	)
 
-
-//Private
-/datum/job/enclave/enclavespy
-	title = "Enclave Private"
-	flag = F13USPRIVATE
-	total_positions = 0
-	spawn_positions = 0
-	description = "You are an operative for the remnants of the Enclave. Obey your Lieutenant. He sets the Enclave's policies."
-	supervisors = "The Lieutenant and the Sergeants"
-	outfit = /datum/outfit/job/enclave/peacekeeper/enclavespy
-	exp_type = EXP_TYPE_FALLOUT
-	exp_requirements = 600
-
-	loadout_options = list(
-		/datum/outfit/loadout/pvtfrontline,
-		/datum/outfit/loadout/pvtguard,
-		)
-
-/datum/outfit/job/enclave/peacekeeper/enclavespy
-	name = "Enclave Private"
-	jobtype = /datum/job/enclave/enclavespy
-	head = /obj/item/clothing/head/helmet/f13/combat/swat/enclave
-	suit = /obj/item/clothing/suit/armor/f13/combat/swat/enclave
-	accessory = /obj/item/clothing/accessory/enclave
-
-	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
-		/obj/item/grenade/smokebomb = 1,
-		/obj/item/pda = 1,
-		/obj/item/storage/bag/money/small/wastelander = 1,
-		/obj/item/melee/onehanded/knife/survival = 1,
-		)
-
-/datum/outfit/loadout/pvtfrontline
-	name = "Frontliner"
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/assault_carbine/worn = 1,
-		/obj/item/ammo_box/magazine/m5mm = 2,
-		)
-
-/datum/outfit/loadout/pvtguard
-	name = "Hit And Run"
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/smg/smg10mm/worn = 1,
-		/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
-		/obj/item/ammo_box/magazine/m10mm_adv/ext = 3,
-		)
 
 //NON-COMBATANTS
 
@@ -480,7 +253,7 @@
 /datum/job/enclave/f13BDUTY
 	title = "Enclave Bunker Duty"
 	flag = F13USBDUTY
-	total_positions = 2
+	total_positions = 2	//I'm not increasing this to 3 until testing has been done, but regardless I don't think it should be higher
 	spawn_positions = 2
 	description = "You were assigned to bunker duty this week, clean up, cook up, preach up or chem up your fellow Americans and remember don't join any raids or battles from your fellow Americans, after all it's none of your concern this week is it."
 	enforces = "You are not permited to leave the base. You are a non-combatant. You cannot join any raids or battles on the surface."
