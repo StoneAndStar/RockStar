@@ -695,7 +695,7 @@
 		dat += "</tr></table>"
 
 	//BoS (Steel Blue)
-	/*	dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
+		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
 		dat += "<tr align='center' bgcolor='8eb7e3'><th colspan='[length(GLOB.oasis_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=brotherhooddept;jobban4=[REF(M)]'>Brotherhood Positions</a></th></tr><tr align='center'>"
 		for(var/jobPos in GLOB.brotherhood_positions)
 			if(!jobPos)
@@ -710,7 +710,7 @@
 			if(counter >= 6) //So things dont get squiiiiished!
 				dat += "</tr><tr>"
 				counter = 0
-		dat += "</tr></table>"*/
+		dat += "</tr></table>"
 
 	//Oasis (Green)
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
@@ -821,7 +821,7 @@
 		dat += "</tr></table>"
 
 	//Tribal (Brown)
-		/*dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
+		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
 		dat += "<tr align='center' bgcolor='cbb888'><th colspan='[length(GLOB.tribal_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=tribaldept;jobban4=[REF(M)]'>Tribal Positions</a></th></tr><tr align='center'>"
 		for(var/jobPos in GLOB.tribal_positions)
 			if(!jobPos)
@@ -836,7 +836,7 @@
 			if(counter >= 6) //So things dont get squiiiiished!
 				dat += "</tr><tr>"
 				counter = 0
-		dat += "</tr></table>"*/
+		dat += "</tr></table>"
 
 	//Followers (Light Blue)
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
@@ -1027,11 +1027,11 @@
 					if(!jobPos)
 						continue
 					joblist += jobPos
-			/*if("brotherhooddept")
+			if("brotherhooddept")
 				for(var/jobPos in GLOB.brotherhood_positions)
 					if(!jobPos)
 						continue
-					joblist += jobPos*/
+					joblist += jobPos
 			if("oasisdept")
 				for(var/jobPos in GLOB.oasis_positions)
 					if(!jobPos)
@@ -1062,11 +1062,11 @@
 					if(!jobPos)
 						continue
 					joblist += jobPos
-			/*if("tribaldept")
+			if("tribaldept")
 				for(var/jobPos in GLOB.tribal_positions)
 					if(!jobPos)
 						continue
-					joblist += jobPos*/
+					joblist += jobPos
 			if("followersdept")
 				for(var/jobPos in GLOB.followers_positions)
 					if(!jobPos)
