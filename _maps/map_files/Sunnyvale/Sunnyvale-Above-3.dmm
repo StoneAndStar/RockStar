@@ -1220,10 +1220,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"vn" = (
-/obj/effect/landmark/start/f13/followersvolunteer,
-/turf/open/floor/wood/wood_tiled,
-/area/f13/followers)
 "vr" = (
 /turf/closed/indestructible/rock,
 /area/f13/caves)
@@ -1661,7 +1657,8 @@
 /obj/item/organ/cyberimp/eyes/hud/medical,
 /obj/item/organ/cyberimp/eyes/hud/medical,
 /obj/item/organ/cyberimp/eyes/hud/medical,
-/obj/item/organ/cyberimp/arm/gun/laser,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/eyes/hud/medical,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -1754,6 +1751,10 @@
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
+/area/f13/followers)
+"Ec" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/followers)
 "Ei" = (
 /obj/structure/rack,
@@ -1997,6 +1998,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
+"HC" = (
+/obj/effect/landmark/start/f13/followersvolunteer,
+/turf/open/floor/wood/wood_tiled,
+/area/f13/followers)
 "HG" = (
 /obj/structure/rack,
 /obj/item/shield/riot,
@@ -2356,10 +2361,6 @@
 /obj/machinery/cell_charger,
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
-"Nw" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
-/area/f13/followers)
 "NC" = (
 /obj/structure/sink{
 	dir = 4;
@@ -82960,10 +82961,10 @@ Pl
 Rg
 XH
 TQ
-Nw
+Ec
 Pl
 Ib
-vn
+HC
 Ib
 Pl
 sM
