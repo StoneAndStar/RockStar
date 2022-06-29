@@ -1752,6 +1752,10 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
+"Ec" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/area/f13/followers)
 "Ei" = (
 /obj/structure/rack,
 /obj/item/camera,
@@ -1949,10 +1953,6 @@
 /obj/item/pen/blue,
 /turf/open/floor/plasteel,
 /area/f13/tcoms)
-"Gx" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
-/area/f13/followers)
 "GB" = (
 /obj/structure/chair/sofa,
 /turf/open/floor/carpet/royalblack,
@@ -1998,6 +1998,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
+"HC" = (
+/obj/effect/landmark/start/f13/followersvolunteer,
+/turf/open/floor/wood/wood_tiled,
+/area/f13/followers)
 "HG" = (
 /obj/structure/rack,
 /obj/item/shield/riot,
@@ -82957,10 +82961,10 @@ Pl
 Rg
 XH
 TQ
-Gx
+Ec
 Pl
 Ib
-FI
+HC
 Ib
 Pl
 sM
