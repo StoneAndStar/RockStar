@@ -634,6 +634,15 @@
 /obj/machinery/light/small,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legioncamp)
+"acP" = (
+/obj/machinery/door/airlock/medical{
+	name = "Clinic";
+	req_one_access_txt = "25"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/followers)
 "acX" = (
 /obj/structure/table,
 /obj/item/flashlight/lamp{
@@ -2653,13 +2662,6 @@
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
-"ajE" = (
-/obj/structure/closet,
-/obj/effect/spawner/lootdrop/f13/cash_random_low,
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
-/area/f13/followers)
 "ajF" = (
 /obj/structure/closet/fridge/meat,
 /obj/machinery/light/small{
@@ -14090,6 +14092,13 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/prison)
+"aRi" = (
+/obj/structure/closet,
+/obj/effect/spawner/lootdrop/f13/cash_random_low,
+/turf/open/floor/f13{
+	icon_state = "greendirtyfull"
+	},
+/area/f13/followers)
 "aRj" = (
 /obj/structure/chair/wood/normal{
 	dir = 1
@@ -30010,6 +30019,12 @@
 	icon_state = "dirt"
 	},
 /area/f13/ncr)
+"cCj" = (
+/obj/machinery/light,
+/turf/open/floor/f13{
+	icon_state = "whitegreenrustychess"
+	},
+/area/f13/followers)
 "cCQ" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/f13/mechanic,
@@ -30352,13 +30367,6 @@
 "djk" = (
 /turf/closed/wall/f13/tunnel,
 /area/f13/desert)
-"djn" = (
-/obj/machinery/reagentgrinder,
-/obj/structure/table,
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
-/area/f13/followers)
 "dju" = (
 /obj/structure/dresser,
 /turf/open/floor/wood/f13/old,
@@ -31042,6 +31050,12 @@
 /mob/living/simple_animal/cow/brahmin,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/farmhouse)
+"eEF" = (
+/obj/item/trash/f13/steak,
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluerustychess"
+	},
+/area/f13/powerplant)
 "eFk" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outermaincornerouter"
@@ -31148,6 +31162,7 @@
 /area/f13/sunny_dale)
 "eSw" = (
 /obj/structure/bed/roller,
+/obj/machinery/iv_drip,
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
@@ -31790,12 +31805,6 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"gjU" = (
-/obj/machinery/light,
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/f13/followers)
 "gkS" = (
 /obj/effect/decal/remains/human,
 /obj/item/pickaxe{
@@ -31804,15 +31813,6 @@
 /obj/item/clothing/head/bio_hood/f13/hazmat,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"gnp" = (
-/obj/machinery/door/airlock/medical{
-	name = "Clinic";
-	req_one_access_txt = "25"
-	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
-/area/f13/followers)
 "gpu" = (
 /obj/machinery/workbench,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -33895,14 +33895,6 @@
 /obj/machinery/workbench/forge,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"kEp" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
-/area/f13/followers)
 "kEw" = (
 /mob/living/simple_animal/hostile/radscorpion,
 /turf/open/indestructible/ground/inside/mountain,
@@ -35604,6 +35596,13 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
+"ojR" = (
+/obj/machinery/reagentgrinder,
+/obj/structure/table,
+/turf/open/floor/f13{
+	icon_state = "greendirtyfull"
+	},
+/area/f13/followers)
 "okM" = (
 /obj/structure/table,
 /obj/item/healthanalyzer,
@@ -36492,6 +36491,19 @@
 /obj/structure/bed/mattress/pregame,
 /turf/open/floor/wood/f13,
 /area/f13/desert)
+"pRd" = (
+/obj/machinery/door/airlock/medical{
+	name = "Clinic";
+	req_one_access_txt = "124"
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "followershutters";
+	name = "followers shutters"
+	},
+/turf/open/floor/f13{
+	icon_state = "whitegreenrustychess"
+	},
+/area/f13/followers)
 "pRT" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/terminal{
@@ -36803,6 +36815,10 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/farmhouse)
+"qEC" = (
+/obj/machinery/vending/medical,
+/turf/closed/wall/f13/store,
+/area/f13/followers)
 "qFc" = (
 /obj/structure/dresser,
 /turf/open/floor/wood,
@@ -36971,6 +36987,19 @@
 	icon_state = "greendirtysolid"
 	},
 /area/f13/mountain_bunker)
+"qUR" = (
+/obj/machinery/door/airlock/medical{
+	name = "Clinic";
+	req_one_access_txt = "124"
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "followershutters";
+	name = "followers shutters"
+	},
+/turf/open/floor/f13{
+	icon_state = "freezerfloor"
+	},
+/area/f13/followers)
 "qUT" = (
 /obj/structure/table/booth,
 /obj/item/stack/f13Cash/random/low,
@@ -37016,19 +37045,6 @@
 	icon_state = "housewood2"
 	},
 /area/f13/desert)
-"qZe" = (
-/obj/machinery/door/airlock/medical{
-	name = "Clinic";
-	req_one_access_txt = "124"
-	},
-/obj/machinery/door/poddoor/shutters{
-	id = "followershutters";
-	name = "followers shutters"
-	},
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/f13/followers)
 "rak" = (
 /obj/structure/table/wood,
 /turf/open/floor/f13/wood{
@@ -37051,12 +37067,6 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/tunnel)
-"rdn" = (
-/obj/effect/landmark/start/f13/followersdoctor,
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
-/area/f13/followers)
 "rfh" = (
 /obj/structure/chair,
 /obj/machinery/light{
@@ -37652,10 +37662,6 @@
 	icon_state = "housewood2"
 	},
 /area/f13/desert)
-"skw" = (
-/obj/machinery/vending/medical,
-/turf/closed/wall/f13/store,
-/area/f13/followers)
 "slW" = (
 /obj/machinery/microwave/stove,
 /turf/open/floor/plasteel/f13{
@@ -38788,12 +38794,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/ncr)
-"uxc" = (
-/obj/item/trash/f13/steak,
-/turf/open/floor/plasteel/f13{
-	icon_state = "whitebluerustychess"
-	},
-/area/f13/powerplant)
 "uxO" = (
 /obj/structure/table/wood/settler,
 /obj/item/reagent_containers/food/snacks/f13/steak,
@@ -39713,19 +39713,6 @@
 	icon_state = "horizontaltopborderbottom2right"
 	},
 /area/f13/desert)
-"wqM" = (
-/obj/machinery/door/airlock/medical{
-	name = "Clinic";
-	req_one_access_txt = "124"
-	},
-/obj/machinery/door/poddoor/shutters{
-	id = "followershutters";
-	name = "followers shutters"
-	},
-/turf/open/floor/f13{
-	icon_state = "freezerfloor"
-	},
-/area/f13/followers)
 "wqY" = (
 /obj/structure/closet/crate{
 	anchored = 1;
@@ -40321,6 +40308,12 @@
 "xwb" = (
 /turf/closed/wall/f13/wood/house/broken,
 /area/f13/sunny_dale)
+"xxO" = (
+/obj/effect/landmark/start/f13/followersdoctor,
+/turf/open/floor/f13{
+	icon_state = "greendirtyfull"
+	},
+/area/f13/followers)
 "xAz" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/terminal{
@@ -40437,6 +40430,15 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/ncr)
+"xNW" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/iv_drip,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/followers)
 "xNY" = (
 /obj/structure/stacklifter,
 /turf/open/indestructible/ground/outside/desert,
@@ -85220,7 +85222,7 @@ tpz
 wfv
 btb
 bVC
-uxc
+eEF
 pSk
 bUX
 bUX
@@ -120003,10 +120005,10 @@ aGB
 xUG
 eTf
 bYu
-djn
+ojR
 pFH
 aJq
-rdn
+xxO
 bYu
 aFW
 aGg
@@ -120405,7 +120407,7 @@ eXi
 wXY
 wXY
 bYu
-ajE
+aRi
 pFH
 pFH
 pFH
@@ -121209,7 +121211,7 @@ aLm
 aIv
 eSw
 bYu
-kEp
+xNW
 xXJ
 xXJ
 nSB
@@ -121610,7 +121612,7 @@ bYu
 aIv
 aIv
 aIv
-gnp
+acP
 xXJ
 aIl
 xXJ
@@ -122013,7 +122015,7 @@ aHZ
 aIv
 aIv
 bYu
-skw
+qEC
 xXJ
 xXJ
 aKo
@@ -122414,7 +122416,7 @@ bYu
 bYu
 aIv
 aIv
-gjU
+cCj
 bYu
 xXJ
 xXJ
@@ -123218,7 +123220,7 @@ bYu
 aRV
 aRV
 tih
-qZe
+pRd
 bYu
 uPT
 sjf
@@ -124023,7 +124025,7 @@ bRE
 aIv
 aIv
 aIv
-wqM
+qUR
 uPT
 uPT
 aJu
