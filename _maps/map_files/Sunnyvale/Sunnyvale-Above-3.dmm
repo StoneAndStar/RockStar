@@ -1949,6 +1949,10 @@
 /obj/item/pen/blue,
 /turf/open/floor/plasteel,
 /area/f13/tcoms)
+"Gx" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/area/f13/followers)
 "GB" = (
 /obj/structure/chair/sofa,
 /turf/open/floor/carpet/royalblack,
@@ -3104,6 +3108,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/vending/coffee,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
 "Zp" = (
@@ -3133,10 +3138,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"ZB" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
-/area/f13/followers)
 "ZI" = (
 /obj/item/kirbyplants/random{
 	pixel_y = 8
@@ -82956,7 +82957,7 @@ Pl
 Rg
 XH
 TQ
-ZB
+Gx
 Pl
 Ib
 FI
