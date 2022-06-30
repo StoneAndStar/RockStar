@@ -624,8 +624,6 @@
 "acI" = (
 /turf/open/floor/wood/f13/oakbroken,
 /area/f13/legioncamp)
-"acJ" = (
-/area/f13/underground/mountain)
 "acK" = (
 /obj/item/pickaxe,
 /turf/open/indestructible/ground/inside/mountain,
@@ -134199,10 +134197,10 @@ aab
 aab
 aab
 aab
-aaa
-aaa
-aaa
-aaa
+aab
+aab
+aab
+aab
 aab
 aab
 aab
@@ -134601,10 +134599,10 @@ aab
 aab
 aab
 aab
-aaa
-acJ
-acJ
-aaa
+aab
+aab
+aab
+aab
 aab
 aab
 aab
@@ -135003,10 +135001,10 @@ aab
 aab
 aab
 aab
-aaa
-aaa
-aaa
-aaa
+aab
+aab
+aab
+aab
 aab
 aab
 aab
