@@ -21280,10 +21280,6 @@
 /mob/living/simple_animal/hostile/ghoul/glowing,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
-"bny" = (
-/turf/closed/wall/f13/ruins,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/sunny_dale)
 "bnz" = (
 /obj/machinery/chem_dispenser,
 /turf/open/floor/plasteel/f13{
@@ -21950,7 +21946,6 @@
 /area/f13/tunnel)
 "bpZ" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/rat,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -34979,11 +34974,6 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/sunny_dale)
-"oyt" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/rat,
-/turf/open/floor/plating,
 /area/f13/sunny_dale)
 "ozu" = (
 /obj/structure/table/wood,
@@ -111620,8 +111610,8 @@ qRG
 qRG
 boa
 qLG
-bny
-bny
+hWV
+hWV
 hWV
 hWV
 hWV
@@ -113641,7 +113631,7 @@ rTb
 rTb
 hWV
 bpW
-oyt
+hTf
 bxl
 bqJ
 bGZ
