@@ -28626,6 +28626,11 @@
 	icon_state = "verticalleftborderright0"
 	},
 /area/f13/desert)
+"bXX" = (
+/obj/structure/rack,
+/obj/item/stack/ore/blackpowder,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "bYr" = (
 /obj/machinery/microwave/stove,
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
@@ -30556,10 +30561,6 @@
 /obj/item/storage/bag/ore,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/ncr)
-"fAR" = (
-/obj/machinery/workbench,
-/turf/open/floor/wood/f13/oak,
-/area/f13/legioncamp)
 "fBq" = (
 /obj/machinery/light/lampost{
 	dir = 1;
@@ -31088,11 +31089,6 @@
 /obj/structure/closet/crate/bin/trashbin,
 /turf/open/floor/f13/wood,
 /area/f13/desert)
-"gHn" = (
-/obj/structure/rack,
-/obj/item/stack/ore/blackpowder,
-/turf/open/floor/wood/f13/oak,
-/area/f13/legioncamp)
 "gHT" = (
 /obj/machinery/button/door{
 	id = "ncrrangershutters";
@@ -32291,10 +32287,6 @@
 /obj/structure/decoration/rag,
 /turf/closed/wall/mineral/wood,
 /area/f13/legioncamp)
-"jbo" = (
-/obj/machinery/autolathe,
-/turf/open/floor/wood/f13/oak,
-/area/f13/legioncamp)
 "jdK" = (
 /obj/effect/landmark/start/f13/auxilia,
 /turf/open/floor/wood/f13/oak,
@@ -32388,11 +32380,6 @@
 	icon_state = "horizontaloutermain2right"
 	},
 /area/f13/desert)
-"jmZ" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/metal/fifty,
-/turf/open/floor/wood/f13/oak,
-/area/f13/legioncamp)
 "jnR" = (
 /obj/effect/spawner/lootdrop/f13/cash_random_high,
 /turf/open/indestructible/ground/inside/mountain,
@@ -32620,11 +32607,6 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"jIv" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/glass/fifty,
-/turf/open/floor/wood/f13/oak,
-/area/f13/legioncamp)
 "jIG" = (
 /obj/structure/sign/poster/contraband/pinup_bed{
 	pixel_x = 32
@@ -37052,6 +37034,11 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/ncr)
+"snt" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/fifty,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "snG" = (
 /obj/effect/landmark/start/f13/wastelander,
 /obj/effect/decal/marking{
@@ -37317,6 +37304,10 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/sunny_dale)
+"sRp" = (
+/obj/machinery/autolathe,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "sRW" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/breadhard,
@@ -38108,15 +38099,6 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/sunny_dale)
-"urC" = (
-/obj/machinery/door/airlock/medical{
-	name = "Clinic";
-	req_one_access_txt = "124"
-	},
-/turf/open/floor/f13{
-	icon_state = "greendirtyfull"
-	},
-/area/f13/followers)
 "urJ" = (
 /obj/item/trash/sosjerky,
 /turf/open/floor/plating,
@@ -39169,6 +39151,11 @@
 	icon_state = "housewood2"
 	},
 /area/f13/desert)
+"wpC" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "wpE" = (
 /obj/structure/simple_door/house{
 	icon_state = "room"
@@ -39571,6 +39558,15 @@
 	icon_state = "verticalinnermain0"
 	},
 /area/f13/desert)
+"wXe" = (
+/obj/machinery/door/airlock/medical{
+	name = "Clinic";
+	req_one_access_txt = "124"
+	},
+/turf/open/floor/f13{
+	icon_state = "greendirtyfull"
+	},
+/area/f13/followers)
 "wXY" = (
 /obj/structure/chair/stool,
 /turf/open/floor/f13{
@@ -40012,6 +40008,10 @@
 	icon_state = "panelscorched"
 	},
 /area/f13/powerplant)
+"xZu" = (
+/obj/machinery/workbench,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "yak" = (
 /obj/structure/rack,
 /obj/item/seeds/poppy/broc,
@@ -90501,7 +90501,7 @@ aqt
 aqt
 aqt
 aqt
-auh
+aqt
 aqt
 aqt
 aqt
@@ -121500,7 +121500,7 @@ aHZ
 aIv
 tih
 aIv
-urC
+wXe
 eXi
 eXi
 aKo
@@ -139451,7 +139451,7 @@ iOM
 xTx
 xTx
 weE
-gHn
+bXX
 aeh
 bSO
 ahz
@@ -140656,9 +140656,9 @@ acB
 xTx
 cIl
 xTx
-jbo
-jmZ
-jIv
+sRp
+snt
+wpC
 bSO
 ahz
 aag
@@ -141058,7 +141058,7 @@ acB
 xTx
 xTx
 xTx
-fAR
+xZu
 ahz
 ahz
 ahz
