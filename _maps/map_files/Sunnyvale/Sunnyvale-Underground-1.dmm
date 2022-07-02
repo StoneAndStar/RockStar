@@ -132,6 +132,16 @@
 /obj/structure/flora/rock/pile/largejungle,
 /turf/open/indestructible/ground/outside/water,
 /area/f13/tunnel)
+"aqw" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood4-broken"
+	},
+/area/f13/building)
 "aqB" = (
 /obj/machinery/power/smes{
 	charge = 5e+006;
@@ -650,11 +660,6 @@
 /obj/structure/wreck/trash/machinepiletwo,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"aYJ" = (
-/obj/structure/chair/bench,
-/mob/living/simple_animal/hostile/legion/prime,
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "aYK" = (
 /obj/structure/fence/wooden{
 	pixel_x = -10
@@ -1306,6 +1311,16 @@
 /area/f13/bunker)
 "bXZ" = (
 /turf/open/floor/wood/wood_large,
+/area/f13/building)
+"bYm" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2-broken"
+	},
 /area/f13/building)
 "bYA" = (
 /obj/structure/table,
@@ -2193,7 +2208,10 @@
 /area/f13/building)
 "daE" = (
 /obj/structure/chair/bench,
-/mob/living/simple_animal/hostile/legion/decan,
+/mob/living/simple_animal/hostile/legion/decan{
+	faction = list("raider");
+	name = "Crazed Legion Decanus"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "daM" = (
@@ -2600,10 +2618,6 @@
 	},
 /turf/open/floor/wood,
 /area/f13/building)
-"dID" = (
-/mob/living/simple_animal/hostile/legion,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "dIV" = (
 /obj/structure/chair/sofa/right{
 	dir = 4
@@ -2666,6 +2680,7 @@
 "dMR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/settler,
+/obj/effect/spawner/lootdrop/f13/cash_legion_low,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "dNd" = (
@@ -3194,7 +3209,10 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "evw" = (
-/mob/living/simple_animal/hostile/legion/prime,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "evG" = (
@@ -3921,7 +3939,10 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fAK" = (
@@ -4162,11 +4183,6 @@
 	name = "pool water"
 	},
 /area/f13/building)
-"fPt" = (
-/mob/living/simple_animal/hostile/legion/prime,
-/obj/structure/chair/bench,
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "fPK" = (
 /obj/structure/chair/office/dark,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -4212,10 +4228,6 @@
 	desc = "Deep, filtered pool water.";
 	name = "pool water"
 	},
-/area/f13/building)
-"fUb" = (
-/mob/living/simple_animal/hostile/legion/prime,
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fUC" = (
 /turf/closed/mineral/random/low_chance,
@@ -4509,15 +4521,6 @@
 /obj/machinery/seed_extractor,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/tunnel)
-"goB" = (
-/mob/living/simple_animal/hostile/legion/decan{
-	health = 700;
-	melee_damage_lower = 50;
-	melee_damage_upper = 70;
-	name = "Mighty Decanus"
-	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "goD" = (
 /obj/structure/simple_door/bunker,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -6024,7 +6027,10 @@
 /obj/machinery/shower{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/legion/prime,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -6991,14 +6997,6 @@
 	color = "#363636"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess,
-/area/f13/building)
-"jtB" = (
-/obj/structure/chair/wood{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion/prime,
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "jtV" = (
 /obj/structure/table,
@@ -8554,10 +8552,8 @@
 /area/f13/sewer)
 "lkf" = (
 /mob/living/simple_animal/hostile/legion/decan{
-	health = 700;
-	melee_damage_lower = 50;
-	melee_damage_upper = 70;
-	name = "Mighty Decanus"
+	faction = list("raider");
+	name = "Crazed Legion Decanus"
 	},
 /turf/open/floor/wood/f13/oak{
 	icon_state = "oakfloor3-broken"
@@ -9199,7 +9195,10 @@
 /obj/machinery/shower{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/legion/prime,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -10083,7 +10082,10 @@
 /obj/machinery/shower{
 	pixel_y = 16
 	},
-/mob/living/simple_animal/hostile/legion/prime,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -10767,8 +10769,19 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/wood/f13/oak,
+/area/f13/building)
+"ofN" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/legion/decan{
+	faction = list("raider");
+	name = "Crazed Legion Decanus"
+	},
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "ofX" = (
 /obj/structure/closet/cabinet,
@@ -13588,7 +13601,10 @@
 	},
 /area/f13/enclave)
 "rCv" = (
-/mob/living/simple_animal/hostile/legion/decan,
+/mob/living/simple_animal/hostile/legion/decan{
+	faction = list("raider");
+	name = "Crazed Legion Decanus"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "rCB" = (
@@ -14073,7 +14089,10 @@
 	},
 /area/f13/building)
 "sco" = (
-/mob/living/simple_animal/hostile/legion,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "scI" = (
@@ -14354,7 +14373,10 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion/decan,
+/mob/living/simple_animal/hostile/legion/decan{
+	faction = list("raider");
+	name = "Crazed Legion Decanus"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "ssY" = (
@@ -16389,7 +16411,10 @@
 /turf/open/floor/wood,
 /area/f13/enclave)
 "uJX" = (
-/mob/living/simple_animal/hostile/legion/decan,
+/mob/living/simple_animal/hostile/legion/decan{
+	faction = list("raider");
+	name = "Crazed Legion Decanus"
+	},
 /turf/open/floor/wood/f13/oak{
 	icon_state = "oakfloor1-broken"
 	},
@@ -16959,7 +16984,10 @@
 /obj/structure/chair/wood{
 	dir = 8
 	},
-/mob/living/simple_animal/hostile/legion,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "vpq" = (
@@ -17201,6 +17229,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/settler,
+/obj/effect/spawner/lootdrop/f13/cash_legion_high,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "vCF" = (
@@ -18089,7 +18118,10 @@
 	},
 /area/f13/enclave)
 "wCK" = (
-/mob/living/simple_animal/hostile/legion/prime,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2-broken"
 	},
@@ -18632,7 +18664,10 @@
 /area/f13/tunnel)
 "xjp" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion/prime,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
 "xjv" = (
@@ -18704,7 +18739,10 @@
 /area/f13/enclave)
 "xpG" = (
 /obj/structure/chair/bench,
-/mob/living/simple_animal/hostile/legion,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "xpW" = (
@@ -18746,7 +18784,10 @@
 /obj/machinery/shower{
 	pixel_y = 16
 	},
-/mob/living/simple_animal/hostile/legion/prime,
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -60364,9 +60405,9 @@ tkc
 sCp
 nES
 nES
-dID
+evw
 nES
-dID
+evw
 nES
 aJA
 geC
@@ -61177,7 +61218,7 @@ geC
 dDg
 fKf
 dDg
-fUb
+sco
 kmV
 lNq
 dDg
@@ -65970,7 +66011,7 @@ nCs
 nCs
 aJA
 xdF
-evG
+bYm
 jvi
 ila
 nkz
@@ -68815,7 +68856,7 @@ ugA
 geC
 dDg
 dDg
-fPt
+xpG
 aJA
 nCs
 wRc
@@ -69598,7 +69639,7 @@ kHF
 nCs
 dDg
 mOx
-goB
+rCv
 nCs
 wRc
 nCs
@@ -69619,7 +69660,7 @@ ugA
 geC
 dDg
 dDg
-aYJ
+xpG
 aJA
 nCs
 wRc
@@ -69988,10 +70029,10 @@ nCs
 nCs
 fow
 gZz
-vpK
+ofN
 vCC
 nES
-gZz
+aqw
 nCs
 nkz
 nCs
@@ -70010,7 +70051,7 @@ dDg
 nCs
 ujB
 nYv
-jtB
+ofc
 ujB
 vpg
 oFL
@@ -70825,7 +70866,7 @@ dDg
 geC
 dDg
 dDg
-fUb
+sco
 aJA
 nCs
 wRc
@@ -71595,7 +71636,7 @@ nkz
 nCs
 nCs
 ptZ
-nES
+evw
 vpK
 xwW
 tNT
