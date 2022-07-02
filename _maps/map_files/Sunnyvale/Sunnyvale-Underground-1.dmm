@@ -1301,9 +1301,9 @@
 /area/f13/building)
 "bYm" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion{
+/mob/living/simple_animal/hostile/legion/prime{
 	faction = list("raider");
-	name = "Crazed Legionnaire"
+	name = "Crazed Legion Prime"
 	},
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2-broken"
@@ -7714,6 +7714,13 @@
 /obj/machinery/autolathe,
 /turf/open/floor/wood/f13/oak,
 /area/f13/tunnel)
+"knM" = (
+/mob/living/simple_animal/hostile/legion/prime{
+	faction = list("raider");
+	name = "Crazed Legion Prime"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "knX" = (
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor2"
@@ -9178,9 +9185,9 @@
 /obj/machinery/shower{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/legion{
+/mob/living/simple_animal/hostile/legion/prime{
 	faction = list("raider");
-	name = "Crazed Legionnaire"
+	name = "Crazed Legion Prime"
 	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
@@ -10065,9 +10072,9 @@
 /obj/machinery/shower{
 	pixel_y = 16
 	},
-/mob/living/simple_animal/hostile/legion{
+/mob/living/simple_animal/hostile/legion/prime{
 	faction = list("raider");
-	name = "Crazed Legionnaire"
+	name = "Crazed Legion Prime"
 	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
@@ -10752,9 +10759,9 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion{
+/mob/living/simple_animal/hostile/legion/prime{
 	faction = list("raider");
-	name = "Crazed Legionnaire"
+	name = "Crazed Legion Prime"
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
@@ -17479,6 +17486,14 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
+"vOO" = (
+/obj/structure/chair/bench,
+/mob/living/simple_animal/hostile/legion/prime{
+	faction = list("raider");
+	name = "Crazed Legion Prime"
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "vPq" = (
 /obj/structure/anvil/obtainable/table,
 /obj/item/twohanded/sledgehammer/simple,
@@ -18097,9 +18112,9 @@
 	},
 /area/f13/enclave)
 "wCK" = (
-/mob/living/simple_animal/hostile/legion{
+/mob/living/simple_animal/hostile/legion/prime{
 	faction = list("raider");
-	name = "Crazed Legionnaire"
+	name = "Crazed Legion Prime"
 	},
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2-broken"
@@ -18822,6 +18837,13 @@
 /turf/open/floor/f13{
 	icon_state = "greenrustyfull"
 	},
+/area/f13/building)
+"xuh" = (
+/mob/living/simple_animal/hostile/legion/prime{
+	faction = list("raider");
+	name = "Crazed Legion Prime"
+	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "xvc" = (
 /obj/structure/barricade/tentclothedge{
@@ -56364,7 +56386,7 @@ qRr
 nES
 nES
 ijc
-evw
+knM
 nES
 tlo
 aJA
@@ -60384,7 +60406,7 @@ tkc
 sCp
 nES
 nES
-evw
+knM
 nES
 evw
 nES
@@ -61197,7 +61219,7 @@ geC
 dDg
 fKf
 dDg
-sco
+xuh
 kmV
 lNq
 dDg
@@ -64414,7 +64436,7 @@ nCs
 aJA
 wfa
 dDg
-rCv
+xuh
 bVm
 wRc
 aJA
@@ -67206,7 +67228,7 @@ kHF
 nCs
 dDg
 buw
-dDg
+xuh
 nCs
 wRc
 nCs
@@ -68417,7 +68439,7 @@ oPR
 toe
 gCH
 dDg
-sco
+xuh
 dDg
 nCs
 npW
@@ -69623,7 +69645,7 @@ nCs
 wRc
 nCs
 dDg
-sco
+xuh
 dDg
 nCs
 rYL
@@ -69639,7 +69661,7 @@ ugA
 geC
 dDg
 dDg
-xpG
+vOO
 aJA
 nCs
 wRc
