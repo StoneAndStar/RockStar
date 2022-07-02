@@ -97,9 +97,7 @@
 	dwidth = 1;
 	height = 3;
 	id = "enclavefort_elevator_down";
-	json_key = null;
 	name = "enclave fort elevator down";
-	roundstart_template = null;
 	width = 4
 	},
 /turf/open/floor/plasteel/elevatorshaft,
@@ -5143,6 +5141,20 @@
 	},
 /turf/open/floor/plating,
 /area/f13/brotherhood)
+"ua" = (
+/mob/living/simple_animal/hostile/legion/prime{
+	faction = list("raider");
+	name = "Crazed Legion Prime"
+	},
+/turf/closed/mineral/random/low_chance,
+/area/f13/underground/cave/vault)
+"uB" = (
+/mob/living/simple_animal/hostile/legion{
+	faction = list("raider");
+	name = "Crazed Legionnaire"
+	},
+/turf/closed/mineral/random/low_chance,
+/area/f13/underground/cave/vault)
 "uD" = (
 /obj/structure/disposalpipe/trunk,
 /obj/item/stack/sheet/mineral/uranium{
@@ -5314,6 +5326,13 @@
 	icon_state = "mountain2"
 	},
 /area/f13/radiation)
+"IO" = (
+/mob/living/simple_animal/hostile/legion/decan{
+	faction = list("raider");
+	name = "Crazed Legion Decanus"
+	},
+/turf/closed/mineral/random/low_chance,
+/area/f13/underground/cave/vault)
 "Jk" = (
 /obj/structure/timeddoor,
 /turf/closed/wall/r_wall,
@@ -17019,7 +17038,7 @@ ki
 ki
 ki
 ki
-ki
+uB
 ki
 ki
 ki
@@ -17790,7 +17809,7 @@ ki
 ki
 ki
 ki
-ki
+IO
 ki
 ki
 ki
@@ -18304,7 +18323,7 @@ ki
 ki
 ki
 ki
-ki
+ua
 ki
 ki
 ki
