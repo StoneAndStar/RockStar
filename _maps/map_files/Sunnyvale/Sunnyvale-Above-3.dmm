@@ -69,7 +69,7 @@
 "aP" = (
 /obj/machinery/door/airlock/medical{
 	name = "Clinic";
-	req_one_access_txt = "25"
+	req_one_access_txt = "124"
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
@@ -124,7 +124,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
 "bS" = (
-/obj/machinery/door/airlock/medical{
+/obj/machinery/door/airlock/medical/glass{
 	name = "Clinic";
 	req_one_access_txt = "124"
 	},

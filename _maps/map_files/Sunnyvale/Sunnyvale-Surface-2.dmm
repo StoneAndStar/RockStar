@@ -4187,7 +4187,6 @@
 /area/ai_monitored/turret_protected/ai_upload)
 "aoX" = (
 /obj/effect/turf_decal/delivery,
-/obj/machinery/computer/robotics,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/ai_monitored/turret_protected/ai_upload)
 "aoY" = (
@@ -4590,14 +4589,7 @@
 	},
 /area/f13/underground/overseer_office)
 "aqc" = (
-/obj/machinery/computer/upload/ai,
-/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
-/area/f13/underground/overseer_office)
-"aqd" = (
 /obj/machinery/computer/upload/borg,
-/obj/machinery/light{
-	dir = 1
-	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/underground/overseer_office)
 "aqe" = (
@@ -4607,7 +4599,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/underground/overseer_office)
 "aqf" = (
-/obj/machinery/computer/communications,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -5055,9 +5046,12 @@
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "art" = (
-/obj/machinery/computer/card{
-	dir = 8
-	},
+/obj/item/card/id/dogtag/vaultiecard,
+/obj/structure/table,
+/obj/item/card/id/dogtag/vaultiecard,
+/obj/item/card/id/dogtag/vaultiecard,
+/obj/item/card/id/dogtag/vaultiecard,
+/obj/item/card/id/dogtag/vaultiecard,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/underground/overseer_office)
 "aru" = (
@@ -5753,6 +5747,7 @@
 /area/engine/engineering)
 "atc" = (
 /obj/machinery/power/am_control_unit,
+/obj/structure/cable,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
 "atd" = (
@@ -5778,7 +5773,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
 "atg" = (
-/obj/machinery/computer/security{
+/obj/machinery/computer/secure_data{
 	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
@@ -5845,7 +5840,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/crew_quarters/heads/hop)
 "atp" = (
-/obj/machinery/computer/security{
+/obj/machinery/computer/secure_data{
 	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
@@ -6065,11 +6060,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/engine/engineering)
 "atR" = (
-/obj/machinery/computer/secure_data{
-	dir = 4
-	},
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/machinery/computer/security{
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/crew_quarters/heads/hos)
@@ -6112,11 +6107,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/crew_quarters/heads/hop)
 "atY" = (
-/obj/machinery/computer/card{
-	dir = 8
-	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/machinery/computer/security{
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/crew_quarters/heads/hop)
@@ -8331,6 +8326,7 @@
 /obj/machinery/camera/autoname{
 	dir = 9
 	},
+/obj/machinery/mineral/ore_redemption,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
 "azj" = (
@@ -26412,7 +26408,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
-/obj/item/gun/ballistic/revolver/russian,
+/obj/item/gun/ballistic/revolver/russian{
+	name = "russian revolver"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/maintenance/disposal)
 "bJI" = (
@@ -27337,9 +27335,9 @@
 /turf/open/floor/plating,
 /area/f13/followers)
 "bRV" = (
-/obj/machinery/door/airlock/medical{
+/obj/machinery/door/airlock/medical/glass{
 	name = "Clinic";
-	req_one_access_txt = "25"
+	req_one_access_txt = "124"
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -30558,6 +30556,10 @@
 /obj/item/storage/bag/ore,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/ncr)
+"fAR" = (
+/obj/machinery/workbench,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "fBq" = (
 /obj/machinery/light/lampost{
 	dir = 1;
@@ -31086,6 +31088,11 @@
 /obj/structure/closet/crate/bin/trashbin,
 /turf/open/floor/f13/wood,
 /area/f13/desert)
+"gHn" = (
+/obj/structure/rack,
+/obj/item/stack/ore/blackpowder,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "gHT" = (
 /obj/machinery/button/door{
 	id = "ncrrangershutters";
@@ -31447,6 +31454,8 @@
 /obj/structure/decoration/smokeold{
 	pixel_x = -32
 	},
+/obj/item/melee/onehanded/knife/cosmicdirty,
+/obj/item/trash/f13/electronic/toaster,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/maintenance/disposal)
 "hlX" = (
@@ -32282,6 +32291,10 @@
 /obj/structure/decoration/rag,
 /turf/closed/wall/mineral/wood,
 /area/f13/legioncamp)
+"jbo" = (
+/obj/machinery/autolathe,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "jdK" = (
 /obj/effect/landmark/start/f13/auxilia,
 /turf/open/floor/wood/f13/oak,
@@ -32375,6 +32388,11 @@
 	icon_state = "horizontaloutermain2right"
 	},
 /area/f13/desert)
+"jmZ" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/fifty,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "jnR" = (
 /obj/effect/spawner/lootdrop/f13/cash_random_high,
 /turf/open/indestructible/ground/inside/mountain,
@@ -32602,6 +32620,11 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"jIv" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "jIG" = (
 /obj/structure/sign/poster/contraband/pinup_bed{
 	pixel_x = 32
@@ -32954,9 +32977,9 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/ncr_main)
 "kvH" = (
-/obj/machinery/door/airlock/medical{
+/obj/machinery/door/airlock/medical/glass{
 	name = "Clinic";
-	req_one_access_txt = "25"
+	req_one_access_txt = "124"
 	},
 /turf/open/floor/f13{
 	icon_state = "greendirtyfull"
@@ -35641,7 +35664,7 @@
 "pFH" = (
 /obj/machinery/door/airlock/medical{
 	name = "Clinic";
-	req_one_access_txt = "25"
+	req_one_access_txt = "124"
 	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
@@ -38085,6 +38108,15 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/sunny_dale)
+"urC" = (
+/obj/machinery/door/airlock/medical{
+	name = "Clinic";
+	req_one_access_txt = "124"
+	},
+/turf/open/floor/f13{
+	icon_state = "greendirtyfull"
+	},
+/area/f13/followers)
 "urJ" = (
 /obj/item/trash/sosjerky,
 /turf/open/floor/plating,
@@ -38767,7 +38799,7 @@
 "vHa" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Armory";
-	req_access_txt = "122"
+	req_access_txt = "121"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
@@ -39032,10 +39064,9 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/sunny_dale)
 "weE" = (
-/obj/structure/rack,
-/obj/item/twohanded/sledgehammer/simple,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/ncr)
+/obj/machinery/autolathe/ammobench,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legioncamp)
 "weG" = (
 /obj/structure/window/fulltile/wood_window,
 /obj/structure/window/fulltile/wood_window,
@@ -53276,7 +53307,7 @@ iSG
 iSG
 iSG
 bql
-weE
+tPL
 oFm
 bPu
 bpF
@@ -73981,7 +74012,7 @@ aoX
 apl
 apB
 aoH
-aqd
+aqf
 aqw
 aqw
 arr
@@ -121469,7 +121500,7 @@ aHZ
 aIv
 tih
 aIv
-kvH
+urC
 eXi
 eXi
 aKo
@@ -139419,8 +139450,8 @@ acB
 iOM
 xTx
 xTx
-bSO
-bSO
+weE
+gHn
 aeh
 bSO
 ahz
@@ -140625,9 +140656,9 @@ acB
 xTx
 cIl
 xTx
-xTx
-bSO
-bSO
+jbo
+jmZ
+jIv
 bSO
 ahz
 aag
@@ -141027,7 +141058,7 @@ acB
 xTx
 xTx
 xTx
-xTx
+fAR
 ahz
 ahz
 ahz
