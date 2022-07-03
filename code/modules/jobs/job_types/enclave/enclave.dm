@@ -4,6 +4,7 @@
 	selection_color = "#AEAEAE"
 	faction = FACTION_ENCLAVE
 	exp_type = EXP_TYPE_FALLOUT
+	maptype = "yuma"
 
 	access = list(ACCESS_ENCLAVE)
 	minimal_access = list(ACCESS_ENCLAVE)
