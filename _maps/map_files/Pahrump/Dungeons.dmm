@@ -13662,7 +13662,6 @@
 "qFe" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "NCR No Mans Land Entrance";
-	req_access = null;
 	req_access_txt = "121"
 	},
 /turf/open/floor/f13{
@@ -14624,7 +14623,6 @@
 /area/f13/bunker)
 "rFH" = (
 /mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant{
-	color = null;
 	desc = "Not to be confused with the other super mutant of similar name.";
 	extra_projectiles = 1;
 	health = 750;
@@ -16793,7 +16791,6 @@
 /area/f13/bunker)
 "uua" = (
 /mob/living/simple_animal/hostile/supermutant/nightkin/elitemutant{
-	color = null;
 	desc = "A poor man consumed by his own folly.";
 	extra_projectiles = 1;
 	health = 750;
