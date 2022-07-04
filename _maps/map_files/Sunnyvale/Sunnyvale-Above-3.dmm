@@ -25,12 +25,6 @@
 /obj/item/storage/box/handcuffs,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"av" = (
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "aE" = (
 /obj/structure/table/wood/fancy/royalblack,
 /turf/open/floor/wood/wood_tiled,
@@ -111,19 +105,6 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
-"bz" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/structure/window{
-	dir = 8;
-	pixel_x = -2
-	},
-/obj/structure/sign/poster/prewar/poster62{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "bG" = (
 /obj/item/storage/money_stack,
 /turf/open/floor/wood/wood_tiled,
@@ -183,10 +164,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"cp" = (
-/mob/living/simple_animal/hostile/handy/robobrain,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "cw" = (
 /obj/structure/simple_door/metal/store,
 /turf/open/floor/wood/f13/old,
@@ -241,12 +218,6 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
-"cX" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "cZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -254,14 +225,6 @@
 "da" = (
 /turf/open/floor/wood,
 /area/f13/farmhouse)
-"df" = (
-/obj/structure/table/wood,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/item/flashlight/lamp,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "di" = (
 /obj/machinery/light{
 	dir = 8
@@ -289,14 +252,6 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
-"dr" = (
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/table/wood,
-/obj/machinery/computer/terminal,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "dv" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -408,15 +363,6 @@
 "eO" = (
 /turf/open/floor/wood/f13/oak,
 /area/f13/village)
-"eU" = (
-/obj/structure/table/wood,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "eW" = (
 /obj/machinery/door/unpowered/securedoor{
 	name = "Chief of Police's Quarters";
@@ -455,12 +401,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/den)
-"fp" = (
-/obj/structure/sign/poster/prewar/corporate_espionage,
-/turf/closed/indestructible/f13vaultrusted{
-	name = "rusty metal wall"
-	},
-/area/f13/sunny_dale)
 "fu" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/f13/canned/ncr/yaoguai_meatballs{
@@ -516,23 +456,12 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
-"gi" = (
-/obj/structure/sign/poster/prewar/poster60{
-	pixel_x = -31
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "gk" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
-"gl" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "gr" = (
 /obj/machinery/door/airlock/medical{
 	name = "Clinic";
@@ -556,19 +485,11 @@
 /obj/structure/simple_door/room,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/den)
-"gM" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/handy/assaultron,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "gN" = (
 /turf/open/floor/f13{
 	icon_state = "hydrofloor"
 	},
 /area/f13/ncr)
-"gP" = (
-/turf/open/transparent/openspace,
-/area/f13/sunny_dale)
 "gS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
@@ -581,12 +502,6 @@
 /obj/item/flashlight/lamp,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"hd" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/bundle/f13/armor/combat/mk2/dark,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/energy/mid,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "hf" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight/lamp,
@@ -662,23 +577,6 @@
 /obj/item/stack/sheet/hay/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
-"jo" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/kirbyplants/random,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
-"jr" = (
-/obj/structure/table/wood,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 4;
-	pixel_x = 2
-	},
-/obj/effect/spawner/lootdrop/f13/crafting,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "jz" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
@@ -694,13 +592,6 @@
 	dir = 9
 	},
 /area/f13/tcoms)
-"kp" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/traitbooks,
-/obj/effect/spawner/lootdrop/f13/bomb/tier3,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "kt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch{
@@ -709,10 +600,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
-"ku" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "kv" = (
 /obj/structure/railing{
 	dir = 6;
@@ -720,13 +607,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"kw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/machinery/computer/terminal,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "kH" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/corner{
@@ -737,10 +617,6 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
-"kM" = (
-/obj/machinery/light/floor,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "kN" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -770,12 +646,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"ln" = (
-/obj/machinery/light/broken{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "lo" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -804,13 +674,6 @@
 	},
 /turf/open/space/basic,
 /area/f13/ncr)
-"lt" = (
-/obj/machinery/light{
-	dir = 4;
-	light_color = "#c1caff"
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "lu" = (
 /obj/structure/table/wood,
 /obj/item/pda,
@@ -828,25 +691,6 @@
 /obj/item/book/granter/crafting_recipe/ODF,
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
-"lB" = (
-/obj/structure/table/wood,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/structure/window{
-	dir = 8;
-	pixel_x = -2
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"lF" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/bundle/f13/armor/combat/dark,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "lK" = (
 /obj/item/kirbyplants/random,
 /obj/structure/railing,
@@ -878,21 +722,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/f13/tcoms)
-"ms" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"mt" = (
-/obj/structure/chair/comfy/shuttle{
-	desc = "A comfortable, secure seat. It has a very futuristic vouge feel.";
-	dir = 1;
-	name = "prewar lounge chair"
-	},
-/obj/effect/decal/remains/human,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "my" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Barracks";
@@ -919,13 +748,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"mN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "mO" = (
 /obj/machinery/light{
 	dir = 1
@@ -1032,14 +854,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/den)
-"ot" = (
-/obj/structure/table/abductor{
-	desc = "After YEARS of research, prototyping, and testing, the brotherhood created the sequel to the table. Advanced flat surface technology at work!";
-	name = "advanced table"
-	},
-/obj/effect/spawner/lootdrop/f13/blueprintHigh,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "ou" = (
 /obj/structure/railing{
 	dir = 4
@@ -1087,13 +901,6 @@
 /obj/item/ammo_box/shotgun/rubber,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/den)
-"oX" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "pe" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -1175,18 +982,6 @@
 "qc" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/sunny_dale)
-"qf" = (
-/obj/machinery/computer{
-	desc = "Some kind of machine.Seems broken and useless.";
-	name = "broken computer"
-	},
-/obj/machinery/status_display{
-	desc = "A large glass display, used to show various types of information.";
-	text = "WARNING!!";
-	pixel_y = 31
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "qi" = (
 /obj/structure/chair/wood/fancy{
 	dir = 8
@@ -1206,27 +1001,6 @@
 "qA" = (
 /turf/open/floor/wood,
 /area/f13/prison)
-"qD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"qE" = (
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"qH" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/structure/window{
-	dir = 8;
-	pixel_x = -2
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "qM" = (
 /obj/machinery/mineral/wasteland_vendor/followerterminal,
 /turf/open/floor/plasteel/blueyellow,
@@ -1237,22 +1011,10 @@
 /obj/item/clothing/head/f13/ncr/steelpot_mp,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"qX" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "ra" = (
 /obj/structure/barricade/sandbags,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"rh" = (
-/turf/open/floor/f13{
-	color = "#ffe9de";
-	icon_state = "darkrusty";
-	name = "dirty floor"
-	},
-/area/f13/sunny_dale)
 "rl" = (
 /obj/machinery/door/airlock/hatch{
 	name = "NCR Lieutenant's Office";
@@ -1300,13 +1062,6 @@
 "rA" = (
 /turf/open/transparent/openspace,
 /area/f13/caves)
-"rE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "rI" = (
 /obj/machinery/light{
 	dir = 4
@@ -1321,20 +1076,6 @@
 /obj/item/paper_bin,
 /turf/open/floor/plasteel,
 /area/f13/tcoms)
-"sj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken{
-	dir = 4
-	},
-/obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"sm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "so" = (
 /obj/structure/table,
 /obj/item/restraints/handcuffs/cable/zipties,
@@ -1355,21 +1096,6 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"sy" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"sA" = (
-/mob/living/simple_animal/hostile/securitron,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
-"sE" = (
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "sM" = (
 /turf/open/transparent/openspace,
 /area/f13/wasteland)
@@ -1380,20 +1106,6 @@
 "tb" = (
 /turf/open/floor/carpet/royalblack,
 /area/f13/ncr)
-"tk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	layer = 4.1
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"tr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/indestructible/f13vaultrusted{
-	name = "rusty metal wall"
-	},
-/area/f13/sunny_dale)
 "tB" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
@@ -1439,29 +1151,10 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"ud" = (
-/obj/structure/table/wood,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 4;
-	pixel_x = 2
-	},
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "uf" = (
 /obj/structure/sign/poster/contraband/revolver,
 /turf/closed/wall/f13/wood,
 /area/f13/ncr)
-"uk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/prewar/corporate_espionage,
-/turf/closed/indestructible/f13vaultrusted{
-	name = "rusty metal wall"
-	},
-/area/f13/sunny_dale)
 "ul" = (
 /obj/structure/railing{
 	dir = 1
@@ -1551,19 +1244,10 @@
 /obj/item/clothing/mask/gas/ranger,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"vF" = (
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
-/obj/structure/table/wood,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "vH" = (
 /obj/effect/turf_decal/stripes/white/line,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
-"vO" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "wb" = (
 /turf/closed/wall/f13/store,
 /area/f13/den)
@@ -1588,12 +1272,6 @@
 	name = "metal plating"
 	},
 /area/f13/den)
-"wo" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "wq" = (
 /turf/open/floor/plasteel/f13/vault_floor/dark{
 	icon_state = "darkrusty"
@@ -1614,19 +1292,6 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/ncr)
-"wF" = (
-/turf/closed/indestructible/f13vaultrusted{
-	name = "rusty metal wall"
-	},
-/area/f13/sunny_dale)
-"wH" = (
-/obj/structure/timeddoor,
-/obj/structure/simple_door/interior{
-	closing_time = 20;
-	opening_time = 25
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "wK" = (
 /obj/structure/chair/comfy/black,
 /turf/open/floor/carpet/green,
@@ -1651,12 +1316,6 @@
 /obj/item/taperecorder,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"xh" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "xk" = (
 /obj/machinery/light{
 	dir = 4
@@ -1712,12 +1371,6 @@
 	},
 /turf/open/floor/plasteel/blueyellow,
 /area/f13/followers)
-"yq" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "yw" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -1801,13 +1454,6 @@
 	},
 /turf/open/floor/carpet/green,
 /area/f13/den)
-"zj" = (
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#c1caff"
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "zm" = (
 /obj/structure/chair/office/dark{
 	dir = 4
@@ -1868,18 +1514,6 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
-"zP" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"zR" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/terminal,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "zV" = (
 /obj/effect/landmark/start/f13/followersguard,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
@@ -1892,15 +1526,6 @@
 "zX" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/brotherhood)
-"Ai" = (
-/obj/machinery/status_display{
-	desc = "A large glass display, used to show various types of information.";
-	text = "REACTOR FAILURE"
-	},
-/turf/closed/indestructible/f13vaultrusted{
-	name = "rusty metal wall"
-	},
-/area/f13/sunny_dale)
 "Aq" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -1911,19 +1536,11 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
-"AH" = (
-/obj/structure/railing/corner,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "AL" = (
 /obj/structure/table/wood,
 /obj/item/pda,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"AR" = (
-/mob/living/simple_animal/hostile/handy/assaultron,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "AV" = (
 /obj/structure/bed,
 /obj/item/bedsheet/hop,
@@ -1967,28 +1584,12 @@
 "BL" = (
 /turf/open/floor/wood,
 /area/f13/sunny_dale)
-"BR" = (
-/obj/structure/table/wood,
-/obj/structure/window{
-	dir = 4;
-	pixel_x = 2
-	},
-/obj/item/flashlight/lamp,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Cc" = (
 /obj/structure/railing/corner{
 	dir = 8
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
-"Cf" = (
-/obj/structure/simple_door/interior{
-	closing_time = 20;
-	opening_time = 25
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Cl" = (
 /obj/structure/table,
 /obj/structure/reagent_dispensers/peppertank{
@@ -2041,12 +1642,6 @@
 	},
 /turf/open/floor/carpet/green,
 /area/f13/den)
-"CA" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/weapon/melee/tier4,
-/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "CH" = (
 /obj/structure/holohoop{
 	dir = 8;
@@ -2087,20 +1682,6 @@
 "CX" = (
 /turf/open/transparent/openspace,
 /area/f13/followers)
-"Dc" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"De" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office/dark{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Dj" = (
 /turf/open/floor/wood/wood_tiled,
 /area/f13/den)
@@ -2128,13 +1709,6 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/den)
-"Dx" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Dz" = (
 /obj/structure/closet/crate/footlocker{
 	pixel_x = -8;
@@ -2267,21 +1841,11 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/den)
-"ER" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "EV" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"EX" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "Fc" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -2440,20 +2004,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
-"Hu" = (
-/obj/machinery/computer{
-	desc = "Some kind of machine.Seems broken and useless.";
-	name = "broken computer"
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
-"HE" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/terminal{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "HG" = (
 /obj/structure/rack,
 /obj/item/shield/riot,
@@ -2465,14 +2015,6 @@
 /obj/item/storage/box/flashbangs,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/den)
-"HJ" = (
-/obj/structure/table/abductor{
-	desc = "After YEARS of research, prototyping, and testing, the brotherhood created the sequel to the table. Advanced flat surface technology at work!";
-	name = "advanced table"
-	},
-/obj/effect/spawner/lootdrop/f13/medical/vault/meds,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "HK" = (
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
@@ -2493,13 +2035,6 @@
 	dir = 9
 	},
 /area/f13/tcoms)
-"HY" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Ia" = (
 /turf/closed/wall/r_wall/rust,
 /area/f13/ncr)
@@ -2555,10 +2090,6 @@
 "Ix" = (
 /turf/closed/indestructible/opshuttle,
 /area/f13/prison)
-"IA" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "IL" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -2569,10 +2100,6 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
-"IS" = (
-/mob/living/simple_animal/hostile/securitron,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "IY" = (
 /obj/structure/table/wood/fancy/royalblack,
 /turf/open/floor/carpet/green,
@@ -2583,18 +2110,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"Jr" = (
-/obj/structure/table/wood,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 4;
-	pixel_x = 2
-	},
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Jw" = (
 /obj/structure/table/wood,
 /obj/machinery/msgterminal/ncr{
@@ -2662,11 +2177,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
-"KF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "KJ" = (
 /turf/open/floor/wood,
 /area/f13/den)
@@ -2749,12 +2259,6 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/den)
-"LU" = (
-/obj/machinery/light/broken{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Ma" = (
 /obj/structure/railing/corner,
 /turf/open/transparent/openspace,
@@ -2808,9 +2312,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"MQ" = (
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "MT" = (
 /obj/structure/grille/indestructable,
 /obj/effect/spawner/structure/window/reinforced,
@@ -2856,17 +2357,6 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
-"Ng" = (
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
-"Nq" = (
-/obj/structure/table/abductor{
-	desc = "After YEARS of research, prototyping, and testing, the brotherhood created the sequel to the table. Advanced flat surface technology at work!";
-	name = "advanced table"
-	},
-/obj/effect/spawner/lootdrop/f13/blueprintLow,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "Nv" = (
 /obj/structure/table/wood,
 /obj/machinery/cell_charger,
@@ -2928,11 +2418,6 @@
 "NT" = (
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
-"Oe" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Of" = (
 /turf/open/floor/carpet/red,
 /area/f13/ncr)
@@ -2981,11 +2466,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/f13/tcoms)
-"OH" = (
-/mob/living/simple_animal/hostile/securitron,
-/obj/machinery/light/floor,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "OK" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -3024,13 +2504,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
-"Ph" = (
-/obj/structure/closet/crate,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "Pi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -3065,11 +2538,6 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
-"PH" = (
-/obj/machinery/light/floor,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "PK" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -3094,13 +2562,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"PZ" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/cash_random_high,
-/obj/item/clothing/glasses/night/syndicate,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "Qe" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt{
@@ -3112,11 +2573,6 @@
 /obj/item/card/id/dogtag/ncrsergeant,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"Qh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Qk" = (
 /obj/structure/table/reinforced,
 /obj/item/pda/engineering{
@@ -3174,11 +2630,6 @@
 /obj/item/megaphone,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"Rf" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/securitron,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Rg" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal,
@@ -3218,17 +2669,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"Rx" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/cash_random_high,
-/obj/item/grenade/plastic/x4,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
-"RA" = (
-/mob/living/simple_animal/hostile/handy/robobrain,
-/obj/machinery/light/floor,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "RD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3266,14 +2706,6 @@
 /obj/machinery/computer/terminal,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"RU" = (
-/obj/structure/table/abductor{
-	desc = "After YEARS of research, prototyping, and testing, the brotherhood created the sequel to the table. Advanced flat surface technology at work!";
-	name = "advanced table"
-	},
-/obj/item/stock_parts/cell/ammo/alien,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "RV" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -3287,10 +2719,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"Sb" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Se" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -3325,11 +2753,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/den)
-"Sx" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/bomb/tier3,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "SB" = (
 /obj/structure/table/wood,
 /obj/item/ship_in_a_bottle,
@@ -3394,10 +2817,6 @@
 /obj/item/encryptionkey/headset_ranger,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"Tf" = (
-/obj/structure/chair/office/dark,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Tm" = (
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 8;
@@ -3439,12 +2858,6 @@
 "Uh" = (
 /turf/open/floor/wood,
 /area/f13/village)
-"Ui" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/closed/indestructible/f13vaultrusted{
-	name = "rusty metal wall"
-	},
-/area/f13/sunny_dale)
 "Ul" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 9
@@ -3475,12 +2888,6 @@
 /obj/item/stack/rods/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/den)
-"UA" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "UD" = (
 /obj/structure/sign/warning/nosmoking{
 	pixel_y = -32
@@ -3515,16 +2922,6 @@
 /obj/effect/landmark/start/f13/ncrcaptain,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"Vh" = (
-/obj/machinery/door/airlock/hatch,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
-"Vk" = (
-/obj/structure/railing{
-	layer = 4.1
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "Vm" = (
 /obj/structure/railing{
 	dir = 4
@@ -3538,27 +2935,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"VF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/machinery/computer/terminal{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "VL" = (
 /obj/machinery/light_switch{
 	pixel_x = 27
 	},
 /turf/open/floor/plasteel,
 /area/f13/tcoms)
-"VT" = (
-/obj/machinery/light/broken{
-	dir = 4;
-	pixel_y = -16
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "VW" = (
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
@@ -3574,21 +2956,6 @@
 "Wg" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"Wp" = (
-/obj/structure/table/wood,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"WA" = (
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"WE" = (
-/obj/structure/chair/office/dark{
-	dir = 1
-	},
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "WR" = (
 /obj/structure/railing,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -3636,14 +3003,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/f13/wood,
 /area/f13/ncr)
-"Xv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer{
-	desc = "Some kind of machine.Seems broken and useless.";
-	name = "broken computer"
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "Xw" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -3699,29 +3058,6 @@
 	},
 /turf/open/floor/plasteel/blueyellow,
 /area/f13/followers)
-"XU" = (
-/obj/structure/table/wood,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/window{
-	dir = 4;
-	pixel_x = 2
-	},
-/obj/item/flashlight/lamp,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"XV" = (
-/obj/structure/chair/office/dark{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
-"XY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "Ye" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -3753,10 +3089,6 @@
 /obj/structure/decoration/shock,
 /turf/closed/wall/r_wall/rust,
 /area/f13/den)
-"YH" = (
-/obj/machinery/light/broken,
-/turf/open/floor/plasteel/dark,
-/area/f13/sunny_dale)
 "YI" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -3779,14 +3111,6 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
-"Zl" = (
-/obj/structure/table/abductor{
-	desc = "After YEARS of research, prototyping, and testing, the brotherhood created the sequel to the table. Advanced flat surface technology at work!";
-	name = "advanced table"
-	},
-/obj/effect/spawner/lootdrop/f13/medical/random_fev,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "Zp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/unpowered/securedoor{
@@ -3814,11 +3138,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"ZB" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/clothing/glasses/night/syndicate,
-/turf/open/floor/mineral/plastitanium,
-/area/f13/sunny_dale)
 "ZI" = (
 /obj/item/kirbyplants/random{
 	pixel_y = 8
@@ -74121,35 +73440,35 @@ sM
 sM
 sM
 sM
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -74523,35 +73842,35 @@ sM
 sM
 sM
 sM
-wF
-wo
-MQ
-xh
-MQ
-eU
-MQ
-wF
-wo
-AR
-LU
-gi
-LU
-MQ
-eU
-MQ
-Ui
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -74925,35 +74244,35 @@ sM
 sM
 sM
 sM
-Ui
-zR
-XV
-IA
-MQ
-dr
-De
-Ui
-zR
-XV
-Oe
-MQ
-MQ
-MQ
-dr
-De
-Ui
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -75327,35 +74646,35 @@ sM
 sM
 sM
 sM
-Ui
-BR
-cp
-IA
-IA
-ud
-YH
-wF
-BR
-MQ
-IA
-MQ
-sE
-Rf
-jr
-ku
-Ui
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -75729,35 +75048,35 @@ sM
 sM
 sM
 sM
-wF
-MQ
-WA
-MQ
-gM
-IA
-MQ
-MQ
-MQ
-MQ
-IA
-MQ
-MQ
-IA
-IA
-MQ
-wF
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -76131,35 +75450,35 @@ sM
 sM
 sM
 sM
-wF
-qH
-MQ
-MQ
-MQ
-lB
-ku
-wF
-qH
-MQ
-MQ
-MQ
-IA
-MQ
-lB
-ku
-wF
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -76533,35 +75852,35 @@ sM
 sM
 sM
 sM
-wF
-zR
-XV
-MQ
-MQ
-dr
-XV
-wF
-zR
-XV
-IA
-IA
-MQ
-MQ
-dr
-XV
-wF
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -76935,35 +76254,35 @@ sM
 sM
 sM
 sM
-wF
-qX
-yq
-MQ
-oX
-df
-IA
-wF
-qX
-yq
-MQ
-Sb
-MQ
-ln
-df
-IA
-wF
-wF
-wF
-Ai
-wF
-Ai
-wF
-wF
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -77337,35 +76656,35 @@ sM
 sM
 sM
 sM
-wF
-Ui
-tr
-wH
-wF
-wF
-wF
-wF
-wF
-wF
-Cf
-wF
-Cf
-wF
-wF
-wF
-wF
-Hu
-Ng
-zj
-Ph
-Ng
-zj
-CA
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -77739,35 +77058,35 @@ sM
 sM
 sM
 sM
-wF
-IA
-sE
-MQ
-MQ
-MQ
-wF
-MQ
-MQ
-wo
-MQ
-qD
-IA
-qX
-MQ
-MQ
-wF
-qf
-PH
-EX
-Ng
-kM
-Ng
-lF
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -78141,35 +77460,35 @@ sM
 sM
 sM
 sM
-wF
-gP
-ms
-MQ
-tk
-gP
-wF
-MQ
-Tf
-HE
-MQ
-IA
-IA
-kw
-WE
-YH
-wF
-Xv
-EX
-EX
-Ng
-EX
-Ng
-kp
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -78543,35 +77862,35 @@ sM
 sM
 sM
 sM
-wF
-UA
-rE
-sj
-av
-zP
-wF
-MQ
-sm
-Wp
-MQ
-IA
-MQ
-Dx
-KF
-IA
-wF
-jo
-EX
-sA
-ot
-Zl
-Ng
-PZ
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -78945,35 +78264,35 @@ sM
 sM
 sM
 sM
-fp
-MQ
-ku
-wF
-HY
-MQ
-wF
-ER
-MQ
-RA
-MQ
-uk
-MQ
-OH
-MQ
-IA
-Vh
-Ng
-EX
-Ng
-RU
-mt
-Ng
-hd
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -79347,35 +78666,35 @@ sM
 sM
 sM
 sM
-wF
-cX
-mN
-Dc
-AH
-sy
-wF
-MQ
-vF
-Wp
-MQ
-AR
-MQ
-Dx
-KF
-IA
-wF
-vO
-EX
-sA
-HJ
-Nq
-Ng
-Rx
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -79749,35 +79068,35 @@ sM
 sM
 sM
 sM
-wF
-gP
-ms
-IA
-Vk
-gP
-wF
-MQ
-Tf
-VF
-MQ
-MQ
-IA
-zR
-XV
-ku
-wF
-Xv
-EX
-EX
-EX
-XY
-EX
-kp
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -80151,35 +79470,35 @@ sM
 sM
 sM
 sM
-wF
-MQ
-MQ
-IA
-IA
-MQ
-wF
-MQ
-MQ
-wo
-MQ
-yq
-MQ
-qX
-MQ
-MQ
-wF
-qf
-kM
-EX
-Ng
-kM
-Ng
-ZB
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -80553,35 +79872,35 @@ sM
 sM
 sM
 sM
-wF
-wF
-wF
-wH
-wF
-wF
-wF
-wF
-wF
-wF
-Cf
-wF
-Cf
-wF
-wF
-wF
-wF
-Hu
-Ng
-lt
-Ph
-Ng
-lt
-Sx
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -80955,35 +80274,35 @@ sM
 sM
 sM
 sM
-wF
-wo
-MQ
-MQ
-xh
-eU
-MQ
-wF
-wo
-MQ
-MQ
-Dc
-MQ
-MQ
-eU
-qE
-wF
-wF
-wF
-Ai
-wF
-Ai
-wF
-wF
-wF
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -81357,35 +80676,35 @@ sM
 sM
 sM
 sM
-wF
-zR
-XV
-MQ
-MQ
-dr
-De
-wF
-zR
-De
-AR
-IA
-IA
-WA
-dr
-De
-wF
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -81759,35 +81078,35 @@ sM
 sM
 sM
 sM
-wF
-BR
-MQ
-IA
-gM
-Jr
-ku
-wF
-BR
-IA
-IA
-MQ
-MQ
-MQ
-XU
-ku
-wF
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -82161,35 +81480,35 @@ sM
 sM
 sM
 sM
-wF
-qE
-cp
-MQ
-MQ
-MQ
-MQ
-MQ
-MQ
-MQ
-IA
-MQ
-MQ
-MQ
-IA
-MQ
-wF
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -82563,35 +81882,35 @@ sM
 sM
 sM
 sM
-wF
-qH
-MQ
-MQ
-MQ
-lB
-ku
-wF
-bz
-MQ
-MQ
-MQ
-IA
-IA
-lB
-ku
-wF
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -82965,35 +82284,35 @@ sM
 sM
 sM
 sM
-wF
-zR
-XV
-IA
-MQ
-dr
-XV
-wF
-zR
-De
-MQ
-IS
-IA
-IA
-dr
-XV
-wF
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -83367,35 +82686,35 @@ sM
 sM
 sM
 sM
-wF
-gl
-yq
-MQ
-MQ
-df
-IA
-wF
-qX
-Qh
-yq
-MQ
-MQ
-VT
-df
-IA
-wF
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-rh
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
@@ -83769,35 +83088,35 @@ sM
 sM
 sM
 sM
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
-wF
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
+sM
 sM
 sM
 sM
