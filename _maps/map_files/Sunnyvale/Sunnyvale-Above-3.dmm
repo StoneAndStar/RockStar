@@ -1,4 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"af" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Clinic";
+	req_one_access_txt = "124"
+	},
+/turf/open/floor/plasteel/blueyellow,
+/area/f13/followers)
 "ag" = (
 /obj/structure/guncase,
 /obj/item/gun/ballistic/shotgun/police,
@@ -2600,13 +2607,6 @@
 	},
 /turf/closed/wall/f13/store,
 /area/f13/den)
-"QL" = (
-/obj/machinery/door/airlock/medical/glass{
-	name = "Clinic";
-	req_one_access_txt = "124"
-	},
-/turf/open/floor/plasteel/blueyellow,
-/area/f13/followers)
 "QT" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -84168,7 +84168,7 @@ sM
 Pl
 hp
 Pl
-QL
+af
 Pl
 Pl
 aP
