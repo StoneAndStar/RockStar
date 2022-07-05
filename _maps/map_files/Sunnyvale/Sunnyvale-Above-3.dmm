@@ -3059,6 +3059,7 @@
 /obj/structure/rack/shelf_metal,
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/glass/fifty,
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plating,
 /area/f13/followers)
 "Ye" = (
