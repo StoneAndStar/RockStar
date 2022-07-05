@@ -1,7 +1,7 @@
 //It looks like var/faction controls what becomes visible on setup. Should likely be fixed or something, but I'm not doing it.
 /datum/job/enclave
 	department_flag = ENCLAVE
-	selection_color = "#323232"
+	selection_color = "#AEAEAE"
 	faction = FACTION_ENCLAVE
 	exp_type = EXP_TYPE_FALLOUT
 	maptype = "sunnyvale"
