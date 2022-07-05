@@ -3,7 +3,7 @@ name: Autobuild TGUI
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
     paths:
       - 'tgui/**.js'
       - 'tgui/**.scss'

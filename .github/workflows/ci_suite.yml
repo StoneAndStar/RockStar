@@ -2,14 +2,10 @@ name: CI Suite
 on:
   push:
     branches:
-    - main
-    - maps/newreno
-    - maps/sunnyvale
+    - master
   pull_request:
     branches:
-    - main
-    - maps/newreno
-    - maps/sunnyvale
+    - master
 env:
   toolchain: stable
   target: i686-unknown-linux-gnu
