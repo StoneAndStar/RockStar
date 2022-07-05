@@ -1,3 +1,4 @@
+
 /datum/crafting_recipe/roulette
 	name = "Roulette Table"
 	result = /obj/structure/roulettetable
@@ -67,3 +68,4 @@
 		icon_state = "roulette_act"
 	else
 		icon_state = "roulette"
+
