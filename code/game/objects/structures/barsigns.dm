@@ -1,21 +1,3 @@
-////////
-//reno//
-////////
-
-/obj/structure/sign/reno/barsign/sharkclub
-	name = "Shark Club"
-	desc = "The Shark Club is a casino located in New Reno on Second Street, owned by the Bishop family. It is the largest casino in New Reno."
-	icon = 'icons/obj/barsigns.dmi'
-	icon_state = "sharkclub"
-	max_integrity = 500
-	integrity_failure = 0.5
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 100, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
-	buildable_sign = 0
-
-//////////
-//normal//
-//////////
-
 /obj/structure/sign/barsign // All Signs are 64 by 64 pixels, though most of them are made to fit 64 x 32 and only take the two lowermost tiles.
 	name = "Bar Sign"
 	desc = "A bar sign with no writing on it."
