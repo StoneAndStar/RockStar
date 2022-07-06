@@ -1395,6 +1395,7 @@ obj/item/clothing/head/f13/army/beret
 	desc = "The family fedora of the Salvatores."
 	icon_state = "salvatores_fedora"
 	item_state = "salvatores_fedora"
+	armor = list("melee" = 17, "bullet" = 20, "laser" = 20, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
 
 ////////////
 //mordinos//
@@ -1405,6 +1406,7 @@ obj/item/clothing/head/f13/army/beret
 	desc = "The family fedora of the Mordinos."
 	icon_state = "mordinos_fedora"
 	item_state = "mordinos_fedora"
+	armor = list("melee" = 17, "bullet" = 20, "laser" = 20, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
 ///////////
 //bishops//
 ///////////
@@ -1414,6 +1416,7 @@ obj/item/clothing/head/f13/army/beret
 	desc = "The family fedora of the Bishops."
 	icon_state = "bishops_fedora"
 	item_state = "bishops_fedora"
+	armor = list("melee" = 17, "bullet" = 20, "laser" = 20, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
 ////////////
 //wrights//
 ////////////
@@ -1423,6 +1426,7 @@ obj/item/clothing/head/f13/army/beret
 	desc = "The family top hat of the Wrights."
 	icon_state = "wrights_tophat"
 	item_state = "wrights_tophat"
+	armor = list("melee" = 17, "bullet" = 20, "laser" = 20, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
 
 //////////
 //hotel//

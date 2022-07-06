@@ -1048,8 +1048,23 @@
 	desc = "An armored vest with large interior pockets."
 	icon_state = "wrights_vest"
 	item_state = "wrights_vest"
-	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25) //up to change
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt
+
+/obj/item/clothing/suit/armor/f13/wrights/trenchcoat
+	name = "old trench coat"
+	desc = "An armored coat with large interior pockets."
+	icon_state = "WrightTrench"
+	item_state = "WrightTrench"
+	armor = list("melee" = 22, "bullet" = 33, "laser" = 30, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt
+
+/obj/item/clothing/suit/armor/f13/wrights/soldjacket
+	name = "old jacket"
+	desc = "An old, worn out jacket."
+	icon_state = "WrightSoldJacket"
+	item_state = "WrightSoldJacket"
+	armor = list("melee" = 25, "bullet" = 17, "laser" = 20, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
 
 /////////
 //Hotel//
