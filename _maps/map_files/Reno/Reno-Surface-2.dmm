@@ -1455,7 +1455,7 @@
 	},
 /area/f13/wasteland)
 "mw" = (
-/obj/structure/table,
+/obj/structure/roulettetable,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
 "mx" = (
@@ -2121,6 +2121,12 @@
 /obj/machinery/light{
 	dir = 1;
 	light_color = "#706891"
+	},
+/obj/item/stack/tile/carpet/reno/pattern2{
+	amount = 60
+	},
+/obj/item/stack/tile/carpet/reno/pattern2{
+	amount = 60
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -3571,10 +3577,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/housewoodbroken2,
 /area/f13/building)
-"EA" = (
-/obj/item/newspaper,
-/turf/open/transparent/openspace,
-/area/f13/wasteland)
 "ED" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/pill/happy,
@@ -5469,6 +5471,16 @@
 "VP" = (
 /obj/structure/sign/poster/prewar/poster65,
 /turf/closed/wall/rust,
+/area/f13/building)
+"VR" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/stack/tile/carpet/reno/pattern1{
+	amount = 60
+	},
+/obj/item/stack/tile/carpet/reno/pattern1{
+	amount = 60
+	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "VV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12103,7 +12115,7 @@ Vn
 Vn
 dI
 dI
-EA
+dI
 dI
 dI
 dI
@@ -19804,7 +19816,7 @@ xO
 XJ
 oC
 Hg
-Ul
+VR
 Hg
 XJ
 XJ
@@ -28654,7 +28666,7 @@ hz
 uz
 gT
 kJ
-mw
+mK
 mK
 XJ
 KC
