@@ -10212,8 +10212,8 @@
 /turf/open/floor/plasteel/grimy,
 /area/f13/building)
 "irq" = (
-/obj/structure/roulettetable,
-/turf/open/floor/carpet/reno/pattern2,
+/obj/structure/table/wood/poker,
+/turf/open/floor/carpet/reno/pattern1,
 /area/f13/building)
 "irW" = (
 /obj/effect/decal/cleanable/dirt,
@@ -15132,7 +15132,8 @@
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
 "mkz" = (
-/obj/structure/roulettetable,
+/obj/structure/table/wood/poker,
+/obj/item/toy/cards/deck,
 /turf/open/floor/carpet/reno/pattern1,
 /area/f13/building)
 "mkD" = (
@@ -43549,7 +43550,7 @@ ggM
 mkz
 iBL
 iBL
-mkz
+irq
 uCC
 kNK
 aNY
@@ -43698,10 +43699,10 @@ iBL
 wEt
 iBL
 ggM
-ggM
+irq
 iBL
 iBL
-ggM
+mkz
 fJB
 kNK
 aNY
@@ -52397,7 +52398,7 @@ cyF
 hXP
 kNK
 djs
-irq
+hog
 rBN
 djs
 xYN
@@ -52549,7 +52550,7 @@ hXP
 rSc
 kNK
 wbk
-djs
+lYu
 rBN
 djs
 lLJ
@@ -52701,8 +52702,8 @@ hXP
 hXP
 kNK
 djs
-djs
-djs
+hog
+rBN
 djs
 djs
 djs

@@ -1455,7 +1455,7 @@
 	},
 /area/f13/wasteland)
 "mw" = (
-/obj/structure/roulettetable,
+/obj/structure/table/wood/poker,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
 "mx" = (
@@ -28514,7 +28514,7 @@ TE
 gT
 gT
 hc
-mw
+iw
 mK
 XJ
 XJ
@@ -28666,7 +28666,7 @@ hz
 uz
 gT
 kJ
-mK
+mw
 mK
 XJ
 KC
