@@ -207,6 +207,36 @@
 	icon_state = "cypherkey"
 	channels = list(RADIO_CHANNEL_KHANS = 1)
 
+/obj/item/encryptionkey/headset_salvatores
+	name = "Salvatores radio encryption key"
+	desc = "An encryption key for a radio headset. To access the Salvatore channel, use :s."
+	icon_state = "cypherkey"
+	channels = list(RADIO_CHANNEL_SALVATORES = 1)
+
+/obj/item/encryptionkey/headset_bishops
+	name = "Bishops radio encryption key"
+	desc = "An encryption key for a radio headset. To access the Bishop channel, use :b."
+	icon_state = "cypherkey"
+	channels = list(RADIO_CHANNEL_BISHOPS = 1)
+
+/obj/item/encryptionkey/headset_mordinos
+	name = "Mordinos radio encryption key"
+	desc = "An encryption key for a radio headset. To access the Mordino channel, use :m."
+	icon_state = "cypherkey"
+	channels = list(RADIO_CHANNEL_MORDINOS = 1)
+
+/obj/item/encryptionkey/headset_wrights
+	name = "Wrights radio encryption key"
+	desc = "An encryption key for a radio headset. To access the Wright channel, use :w."
+	icon_state = "cypherkey"
+	channels = list(RADIO_CHANNEL_WRIGHTS = 1)
+
+/obj/item/encryptionkey/headset_hotel
+	name = "Hotel radio encryption key"
+	desc = "An encryption key for a radio headset. To access the Hotel channel, use :h."
+	icon_state = "cypherkey"
+	channels = list(RADIO_CHANNEL_HOTEL = 1)
+
 /obj/item/encryptionkey/headset_followers
 	name = "Followers radio encryption key"
 	desc = "An encryption key for a radio headset.  To access the Followers channel, use :g.  To access the Town channel, use :f"

@@ -1,5 +1,6 @@
 /datum/job/wasteland
 	department_flag = WASTELAND
+	maptype = "yuma"
 
 ////////////////
 // GREAT KHAN //
@@ -18,7 +19,7 @@
 	selection_color = "#ff915e"
 	exp_requirements = 1000
 	exp_type = EXP_TYPE_FALLOUT
-	maptype = "yuma"	//Hopefully this makes Khans not selectable outside of Yuma
+	maptype = "khan"
 
 	outfit = /datum/outfit/job/wasteland/f13pusher
 

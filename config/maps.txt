@@ -20,5 +20,10 @@ map stjeromesvalley
 	disabled
 endmap
 map sunnyvale
-	default
+	voteweight 1
 endmap
+map reno
+	voteweight 1
+endmap
+
+
