@@ -594,6 +594,15 @@
 	icon_state = "t45dpowerarmor_bos"
 	item_state = "t45dpowerarmor_bos"
 
+/obj/item/clothing/suit/armor/f13/power_armor/t45d/scout
+	name = "Brotherhood T-45d scout power armour"
+	desc = "A suit of T-45d Power Armour adorned with the markings of the Brotherhood of Steel. Commonly used by Scouts ."
+	icon = 'icons/fallout/clothing/armored_power.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_power.dmi'
+	icon_state = "t45ascoutarmor"
+	item_state = "t45ascoutarmor"
+
+
 /obj/item/clothing/suit/armor/f13/power_armor/t45d/sierra
 	name = "Scorched Sierra power armor"
 	desc = "A captured set of T-45d power armor put into use by the NCR, it's been heavily modified and decorated with the head of a bear and intricate gold trimming. A two headed bear is scorched into the breastplate."
@@ -1028,6 +1037,19 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
+/obj/item/clothing/suit/armor/f13/ahp_suit
+	name = "highway patrol jacket"
+	desc = "An old police motorcycle jacket a gold badge with the logo of the 'Arizona Department of Public Safety'."
+	icon_state = "ahp_suit"
+	item_state = "ahp_suit"
+	body_parts_covered = CHEST|ARMS
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 25, "energy" = 10, "bomb" = 15, "bio" = 60, "rad" = 15, "fire" = 60, "acid" = 30)
+	strip_delay = 40
+
+/obj/item/clothing/suit/armor/f13/ahp_suit/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
+
 /obj/item/clothing/suit/armor/f13/marlowsuit //Raider armour reskin.
 	name = "Marlow gang overcoat"
 	desc = "A heavy raw buckskin overcoat littered with aged bullet holes and frays from regular wear-and-tear."
@@ -1060,6 +1082,12 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 /obj/item/clothing/suit/armor/f13/masonsuit/Initialize()
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
+
+/obj/item/clothing/suit/armor/f13/marlowsuit/schlimmcoat
+	name = "foreign frock coat"
+	desc = "A fine-tailored crimson frock coat, reaching down to the knee. This antiquated attire is both strange and out of place."
+	icon_state = "schlimmcoat"
+	item_state = "schlimmcoat"
 
 //THE GRAVEYARD
 //UNUSED or LEGACY - RETAINED IN CASE DESIRED FOR ADMIN SPAWN OR REIMPLEMENATION. MAY NOT BE EVERYTHING THAT'S UNUSED. TEST BEFORE USING

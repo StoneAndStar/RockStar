@@ -390,7 +390,6 @@
 	extra_damage = 17
 	can_suppress = TRUE
 	can_attachments = TRUE
-	spread = 10
 	suppressor_state = "uzi_suppressor"
 	suppressor_x_offset = 29
 	suppressor_y_offset = 16
@@ -459,11 +458,12 @@
 	spread = 15
 	recoil = 0.5
 
-//White Legs Tommygun			Keywords: .45 ACP, Automatic, 30 rounds
+//White Legs Tommygun			Keywords: .45 ACP, Automatic, 30/50 rounds
 /obj/item/gun/ballistic/automatic/smg/tommygun/whitelegs
 	name = "Storm Drum"
 	desc = "A recovered ancient Thompson from an armory far up North. Commonly used by raiders of the White Legs tribe."
-	mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
+	mag_type = /obj/item/ammo_box/magazine/tommygunm45
+	init_mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
 	fire_delay = 3.75
 	extra_damage = 23
 	spread = 19
@@ -816,6 +816,7 @@
 	spread = 1.2
 	slowdown = 0.05
 	extra_damage = 25
+	extra_penetration = 0.1
 	can_scope = TRUE
 	scope_state = "scope_short"
 	scope_x_offset = 4
