@@ -1437,7 +1437,7 @@ list(/obj/item/stack/sheet/metal = 20,
 /obj/item/storage/box/shopkeeper
 	name = "Shopkeeper's blueprints"
 	desc = "a box of the shopkeeper's blueprints"
-	
+
 
 /obj/item/storage/box/shopkeeper/PopulateContents()
 	for(var/i in 1 to 4)
@@ -1453,6 +1453,132 @@ list(/obj/item/stack/sheet/metal = 20,
 							/obj/item/book/granter/crafting_recipe/blueprint/brushgun,
 							)
 		new randomgun(src)
-	
 
 
+////////////////
+//weapon boxes//
+////////////////
+
+/obj/item/storage/box/gunbox/ncr
+	name = "Supply Box"
+	desc = "A box containing supplies."
+
+//////NCR///////
+
+//conscript
+
+/obj/item/storage/box/gunbox/ncr/conscript/set1/PopulateContents() //double barrel, trench shovel
+	new /obj/item/gun/ballistic/revolver/caravan_shotgun(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/shovel/trench(src)
+	new /obj/item/storage/box/ration/menu_eight(src)
+
+/obj/item/storage/box/gunbox/ncr/conscript/set2/PopulateContents() //autopipe, trench shovel
+	new /obj/item/gun/ballistic/automatic/autopipe(src)
+	new /obj/item/ammo_box/magazine/autopipe(src)
+	new /obj/item/ammo_box/magazine/autopipe(src)
+	new /obj/item/shovel/trench(src)
+	new /obj/item/storage/box/ration/menu_eight(src)
+
+/obj/item/storage/box/gunbox/ncr/conscript/set3/PopulateContents() //varmint, bayonet
+	new /obj/item/gun/ballistic/automatic/varmint(src)
+	new /obj/item/ammo_box/magazine/m556/rifle/empty(src)
+	new /obj/item/ammo_box/magazine/m556/rifle/empty(src)
+	new /obj/item/ammo_box/a556/sport(src)
+	new /obj/item/melee/onehanded/knife/bayonet(src)
+	new /obj/item/storage/box/ration/menu_two(src)
+
+/obj/item/storage/box/gunbox/ncr/conscript/set4/PopulateContents() //service rifle, bayonet
+	new /obj/item/gun/ballistic/automatic/service(src)
+	new /obj/item/ammo_box/magazine/m556/rifle/empty(src)
+	new /obj/item/ammo_box/magazine/m556/rifle/empty(src)
+	new /obj/item/ammo_box/a556/sport(src)
+	new /obj/item/melee/onehanded/knife/bayonet(src)
+	new /obj/item/storage/box/ration/menu_two(src)
+
+//trooper
+
+/obj/item/storage/box/gunbox/ncr/trooper/set1/PopulateContents() //service, bayonet
+	new /obj/item/gun/ballistic/automatic/service(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/melee/onehanded/knife/bayonet(src)
+	new /obj/item/storage/box/ration/menu_two(src)
+
+/obj/item/storage/box/gunbox/ncr/trooper/set2/PopulateContents() //m1carbine, trench shovel
+	new /obj/item/gun/ballistic/automatic/m1carbine/m1n(src)
+	new /obj/item/ammo_box/magazine/m10mm_adv/ext(src)
+	new /obj/item/ammo_box/magazine/m10mm_adv/ext(src)
+	new /obj/item/shovel/trench(src)
+	new /obj/item/storage/box/ration/menu_eight(src)
+
+//corporal
+
+/obj/item/storage/box/gunbox/ncr/corporal/set1/PopulateContents() //marksman, ninemil, legholster
+	new /obj/item/gun/ballistic/automatic/marksman(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/storage/belt/holster/legholster
+	new /obj/item/gun/ballistic/automatic/pistol/ninemil(src)
+	new /obj/item/ammo_box/magazine/m9mmds(src)
+	new /obj/item/storage/box/ration/menu_two
+
+/obj/item/storage/box/gunbox/ncr/corporal/set2/PopulateContents() //greasegun
+	new /obj/item/gun/ballistic/automatic/smg/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+	new /obj/item/storage/box/ration/menu_one(src)
+
+/obj/item/storage/box/gunbox/ncr/corporal/set3/PopulateContents() //hunting shotgun
+	new /obj/item/gun/ballistic/shotgun/hunting(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+	new /obj/item/storage/box/ration/menu_one(src)
+
+/obj/item/storage/box/gunbox/ncr/corporal/set4/PopulateContents() //m1carbine compact, binoculars
+	new /obj/item/gun/ballistic/automatic/m1carbine/compact(src)
+	new /obj/item/ammo_box/magazine/m10mm_adv/ext(src)
+	new /obj/item/ammo_box/magazine/m10mm_adv/ext(src)
+	new /obj/item/storage/belt/holster/legholster
+	new /obj/item/gun/ballistic/automatic/pistol/ninemil(src)
+	new /obj/item/ammo_box/magazine/m9mmds(src)
+	new /obj/item/binoculars
+	new /obj/item/storage/box/ration/menu_one(src)
+
+//Heavy Trooper
+
+/obj/item/storage/box/gunbox/ncr/heavytrooper/set1/PopulateContents() //minigun
+	new /obj/item/minigunpackbal5mm(src)
+
+/obj/item/storage/box/gunbox/ncr/heavytrooper/set2/PopulateContents() //r84
+	new /obj/item/gun/ballistic/automatic/r84(src)
+	new /obj/item/ammo_box/magazine/lmg(src)
+
+/obj/item/storage/box/gunbox/ncr/heavytrooper/set3/PopulateContents() //flamethrower
+	new /obj/item/m2flamethrowertank(src)
+
+/obj/item/storage/box/gunbox/ncr/heavytrooper/set4/PopulateContents() //supersledge
+	new /obj/item/twohanded/sledgehammer/supersledge(src)
+
+//sergeant
+
+/obj/item/storage/box/gunbox/ncr/sergeant/set1/PopulateContents() //marksman
+	new /obj/item/gun/ballistic/automatic/marksman(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/melee/onehanded/knife/bowie(src)
+	new /obj/item/storage/box/ration/menu_two(src)
+
+/obj/item/storage/box/gunbox/ncr/sergeant/set2/PopulateContents() //greasegun
+	new /obj/item/gun/ballistic/automatic/smg/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+	new /obj/item/storage/box/ration/menu_eight(src)
+
+/obj/item/storage/box/gunbox/ncr/sergeant/set3/PopulateContents() //trench shotgun
+	new /obj/item/gun/ballistic/shotgun/trench(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+	new /obj/item/melee/onehanded/knife/bayonet(src)
+	new /obj/item/storage/box/ration/menu_eight(src)
