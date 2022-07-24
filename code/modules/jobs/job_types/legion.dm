@@ -416,7 +416,7 @@ commented out pending rework*/
 	r_hand = pick(
 		/obj/item/storage/box/gunbox/legion/decanus/set1, //trail carbine, bottlecap mine
 		/obj/item/storage/box/gunbox/legion/decanus/set2, //.44, spear quiver
-		/obj/item/storage/box/gunbox/legion/decanus/set3, //caravan shotgun, buckshot
+		/obj/item/storage/box/gunbox/legion/decanus/set3, //hunting shotgun, buckshot
 		/obj/item/storage/box/gunbox/legion/decanus/set4) //grease gun, bottlecap mine
 
 
@@ -473,7 +473,7 @@ commented out pending rework*/
 	r_hand = pick(
 		/obj/item/storage/box/gunbox/legion/decanus/set1, //trail carbine, bottlecap mine
 		/obj/item/storage/box/gunbox/legion/decanus/set2, //.44, spear quiver
-		/obj/item/storage/box/gunbox/legion/decanus/set3, //caravan shotgun, buckshot
+		/obj/item/storage/box/gunbox/legion/decanus/set3, //hunting shotgun, buckshot
 		/obj/item/storage/box/gunbox/legion/decanus/set4) //grease gun, bottlecap mine
 
 ////////////////////

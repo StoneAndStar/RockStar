@@ -1707,8 +1707,8 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/ammo_box/m44(src)
 	new /obj/item/storage/backpack/spearquiver(src)
 
-/obj/item/storage/box/gunbox/legion/decanus/set3/PopulateContents() //caravan shotgun, buckshot
-	new /obj/item/gun/ballistic/revolver/caravan_shotgun(src)
+/obj/item/storage/box/gunbox/legion/decanus/set3/PopulateContents() //hunting shotgun, buckshot
+	new /obj/item/gun/ballistic/shotgun/hunting(src)
 	new /obj/item/ammo_box/shotgun/buck(src)
 	new /obj/item/ammo_box/shotgun/buck(src)
 
