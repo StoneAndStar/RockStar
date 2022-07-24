@@ -1459,11 +1459,12 @@ list(/obj/item/stack/sheet/metal = 20,
 //weapon boxes//
 ////////////////
 
-/obj/item/storage/box/gunbox/ncr
+/obj/item/storage/box/gunbox
 	name = "Supply Box"
 	desc = "A box containing supplies."
 
 //////NCR///////
+
 
 //conscript
 
@@ -1474,10 +1475,10 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/shovel/trench(src)
 	new /obj/item/storage/box/ration/menu_eight(src)
 
-/obj/item/storage/box/gunbox/ncr/conscript/set2/PopulateContents() //autopipe, trench shovel
-	new /obj/item/gun/ballistic/automatic/autopipe(src)
-	new /obj/item/ammo_box/magazine/autopipe(src)
-	new /obj/item/ammo_box/magazine/autopipe(src)
+/obj/item/storage/box/gunbox/ncr/conscript/set2/PopulateContents() //hunting rifle, trench shovel
+	new /obj/item/gun/ballistic/rifle/hunting(src)
+	new /obj/item/ammo_box/a308(src)
+	new /obj/item/ammo_box/a308(src)
 	new /obj/item/shovel/trench(src)
 	new /obj/item/storage/box/ration/menu_eight(src)
 
@@ -1582,3 +1583,196 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/ammo_box/shotgun/buck(src)
 	new /obj/item/melee/onehanded/knife/bayonet(src)
 	new /obj/item/storage/box/ration/menu_eight(src)
+
+/////Legion/////
+
+//Recruit
+
+/obj/item/storage/box/gunbox/legion/recruit/set1/PopulateContents() //lance, bola, trekking
+	new /obj/item/twohanded/spear/lance(src)
+	new /obj/item/restraints/legcuffs/bola(src)
+	new /obj/item/book/granter/trait/trekking(src)
+
+/obj/item/storage/box/gunbox/legion/recruit/set2/PopulateContents() //hunting rifle, machete
+	new /obj/item/gun/ballistic/rifle/hunting(src)
+	new /obj/item/ammo_box/a308(src)
+	new /obj/item/melee/onehanded/machete(src)
+
+/obj/item/storage/box/gunbox/legion/recruit/set3/PopulateContents()  //machete, coffeepotbomb
+	new /obj/item/melee/onehanded/machete(src)
+	new /obj/item/grenade/homemade/coffeepotbomb(src)
+
+/obj/item/storage/box/gunbox/legion/recruit/set4/PopulateContents() //.32, machete
+	new /obj/item/gun/ballistic/revolver/detective(src)
+	new /obj/item/melee/onehanded/machete(src)
+
+/obj/item/storage/box/gunbox/legion/recruit/set5/PopulateContents() //zipgun, machete
+	new /obj/item/gun/ballistic/automatic/hobo/zipgun(src)
+	new /obj/item/melee/onehanded/machete(src)
+	new /obj/item/ammo_box/magazine/zipgun(src)
+	new /obj/item/ammo_box/magazine/zipgun(src)
+
+/obj/item/storage/box/gunbox/legion/recruit/set6/PopulateContents() //machete, trekking
+	new /obj/item/melee/onehanded/machete(src)
+	new /obj/item/book/granter/trait/trekking(src)
+
+/obj/item/storage/box/gunbox/legion/recruit/set7/PopulateContents() //knifegun, machete
+	new /obj/item/gun/ballistic/revolver/hobo/knifegun(src)
+	new /obj/item/melee/onehanded/machete(src)
+	new /obj/item/ammo_box/c45rev(src)
+
+/obj/item/storage/box/gunbox/legion/recruit/set8/PopulateContents() //butcher's knife, 2x molotov
+	new /obj/item/kitchen/knife/butcher(src)
+	new /obj/item/reagent_containers/food/drinks/bottle/molotov/filled(src)
+	new /obj/item/reagent_containers/food/drinks/bottle/molotov/filled(src)
+	new /obj/item/lighter/greyscale(src)
+
+//prime
+
+/obj/item/storage/box/gunbox/legion/prime/set1/PopulateContents() //lance, bola, trekking
+	new /obj/item/twohanded/spear/lance(src)
+	new /obj/item/restraints/legcuffs/bola(src)
+	new /obj/item/restraints/legcuffs/bola(src)
+	new /obj/item/book/granter/trait/trekking(src)
+
+/obj/item/storage/box/gunbox/legion/prime/set2/PopulateContents() //hunting rifle, machete
+	new /obj/item/gun/ballistic/rifle/hunting(src)
+	new /obj/item/ammo_box/a308(src)
+	new /obj/item/ammo_box/a308(src)
+	new /obj/item/melee/onehanded/machete(src)
+
+/obj/item/storage/box/gunbox/legion/prime/set3/PopulateContents()  //357, shield
+	new /obj/item/gun/ballistic/revolver/colt357(src)
+	new /obj/item/ammo_box/a357(src)
+	new /obj/item/ammo_box/a357(src)
+	new /obj/item/shield/riot/legion(src)
+
+/obj/item/storage/box/gunbox/legion/prime/set4/PopulateContents() //caravan shotgun
+	new /obj/item/gun/ballistic/revolver/caravan_shotgun(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+
+/obj/item/storage/box/gunbox/legion/prime/set5/PopulateContents() //hunting shotgun
+	new /obj/item/gun/ballistic/shotgun/hunting(src)
+	new /obj/item/melee/onehanded/knife/bayonet(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+
+//Veteran
+
+/obj/item/storage/box/gunbox/legion/veteran/set1/PopulateContents() //hunting rifle, scope, gladius
+	new /obj/item/gun/ballistic/rifle/hunting(src)
+	new /obj/item/melee/onehanded/machete/gladius(src)
+	new /obj/item/attachments/scope(src)
+	new /obj/item/ammo_box/a308(src)
+	new /obj/item/ammo_box/a308(src)
+	new /obj/item/restraints/legcuffs/beartrap(src)
+
+/obj/item/storage/box/gunbox/legion/veteran/set2/PopulateContents() //lever action, gladius
+	new /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+	new /obj/item/melee/onehanded/machete/gladius(src)
+
+/obj/item/storage/box/gunbox/legion/veteran/set3/PopulateContents()  //trail carbine, gladius
+	new /obj/item/gun/ballistic/rifle/repeater/trail(src)
+	new /obj/item/ammo_box/tube/a357(src)
+	new /obj/item/ammo_box/tube/a357(src)
+	new /obj/item/melee/onehanded/machete/gladius(src)
+
+/obj/item/storage/box/gunbox/legion/veteran/set4/PopulateContents() //.44, fireaxe
+	new /obj/item/gun/ballistic/revolver/m29(src)
+	new /obj/item/twohanded/fireaxe(src)
+	new /obj/item/ammo_box/m44(src)
+	new /obj/item/ammo_box/m44(src)
+	new /obj/item/ammo_box/m44(src)
+
+/obj/item/storage/box/gunbox/legion/veteran/set5/PopulateContents() //sledgehammer, throwing knives
+	new /obj/item/twohanded/sledgehammer/simple(src)
+	new /obj/item/melee/onehanded/knife/throwing(src)
+	new /obj/item/melee/onehanded/knife/throwing(src)
+	new /obj/item/melee/onehanded/knife/throwing(src)
+
+//recruit/prime decanus
+
+/obj/item/storage/box/gunbox/legion/decanus/set1/PopulateContents() //trail carbine, bottlecap mine
+	new /obj/item/gun/ballistic/rifle/repeater/trail(src)
+	new /obj/item/ammo_box/tube/a357(src)
+	new /obj/item/ammo_box/tube/a357(src)
+	new /obj/item/bottlecap_mine(src)
+
+/obj/item/storage/box/gunbox/legion/decanus/set2/PopulateContents() //.44, spear quiver
+	new /obj/item/gun/ballistic/revolver/m29(src)
+	new /obj/item/ammo_box/m44(src)
+	new /obj/item/ammo_box/m44(src)
+	new /obj/item/storage/backpack/spearquiver(src)
+
+/obj/item/storage/box/gunbox/legion/decanus/set3/PopulateContents() //caravan shotgun, buckshot
+	new /obj/item/gun/ballistic/revolver/caravan_shotgun(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+
+/obj/item/storage/box/gunbox/legion/decanus/set4/PopulateContents() //grease gun, bottlecap mine
+	new /obj/item/gun/ballistic/automatic/smg/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+	new /obj/item/bottlecap_mine(src)
+
+//veteran decanus
+
+/obj/item/storage/box/gunbox/legion/vetdecanus/set1/PopulateContents() //14mm pistol, spear quiver
+	new /obj/item/gun/ballistic/automatic/pistol/pistol14(src)
+	new /obj/item/ammo_box/magazine/m14mm(src)
+	new /obj/item/ammo_box/magazine/m14mm(src)
+	new /obj/item/storage/backpack/spearquiver(src)
+
+/obj/item/storage/box/gunbox/legion/vetdecanus/set2/PopulateContents() //lever action, bottlecap mine
+	new /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+	new /obj/item/ammo_box/shotgun/buck(src)
+	new /obj/item/bottlecap_mine(src)
+
+/obj/item/storage/box/gunbox/legion/vetdecanus/set3/PopulateContents() //trail carbine, bottlecap mine
+	new /obj/item/gun/ballistic/rifle/repeater/trail(src)
+	new /obj/item/ammo_box/tube/a357(src)
+	new /obj/item/ammo_box/tube/a357(src)
+	new /obj/item/ammo_box/tube/a357(src)
+	new /obj/item/bottlecap_mine(src)
+
+//Vexillarius
+
+/obj/item/storage/box/gunbox/legion/vexillarius/set1/PopulateContents() //14mm pistol, spear quiver
+	new /obj/item/melee/powerfist/f13(src)
+	new /obj/item/storage/backpack/spearquiver(src)
+
+/obj/item/storage/box/gunbox/legion/vexillarius/set2/PopulateContents() //lever action, bottlecap mine
+	new /obj/item/gun/ballistic/automatic/marksman/sniper(src)
+	new /obj/item/ammo_box/magazine/w308(src)
+	new /obj/item/ammo_box/magazine/w308(src)
+	new /obj/item/bottlecap_mine(src)
+
+/obj/item/storage/box/gunbox/legion/vexillarius/set3/PopulateContents() //trail carbine, bottlecap mine
+	new /obj/item/melee/powered/ripper(src)
+	new /obj/item/gun/ballistic/automatic/smg/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+
+/obj/item/storage/box/gunbox/legion/vexillarius/set4/PopulateContents() //grease gun, bottlecap mine
+	new /obj/item/twohanded/sledgehammer/simple(src)
+	new /obj/item/gun/ballistic/revolver/m29(src)
+	new /obj/item/ammo_box/m44(src)
+	new /obj/item/ammo_box/m44(src)
+
+//centurion
+
+/obj/item/storage/box/gunbox/legion/centurion/set1/PopulateContents() //m1919
+	new /obj/item/gun/ballistic/automatic/m1919(src)
+	new /obj/item/ammo_box/magazine/mm762(src)
+
+/obj/item/storage/box/gunbox/legion/centurion/set2/PopulateContents() //supersledge
+	new /obj/item/twohanded/sledgehammer/supersledge(src)
+
+/obj/item/storage/box/gunbox/legion/centurion/set3/PopulateContents() //14mm SMG
+	new /obj/item/gun/ballistic/automatic/smg/smg14(src)
+	new /obj/item/ammo_box/magazine/smg14(src)
+	new /obj/item/ammo_box/magazine/smg14(src)

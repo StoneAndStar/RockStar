@@ -333,6 +333,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	id = /obj/item/card/id/dogtag/ncrsergeant
 	accessory = /obj/item/clothing/accessory/ncr/SGT
 	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
+	head = /obj/item/clothing/head/f13/ncr
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
 	neck = /obj/item/storage/belt/holster/legholster
 	backpack_contents = list(
@@ -347,8 +348,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13sergeant/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/ncr/sergeant/set1, \ //marksman
-		/obj/item/storage/box/gunbox/ncr/sergeant/set2, \ //greasegun
+		/obj/item/storage/box/gunbox/ncr/sergeant/set1, //marksman
+		/obj/item/storage/box/gunbox/ncr/sergeant/set2, //greasegun
 		/obj/item/storage/box/gunbox/ncr/sergeant/set3) //trenchgun
 
 // DRILL SERGEANT
@@ -624,7 +625,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	loadout_options = list( // ALL: Binoculars, Bowie knife
     /datum/outfit/loadout/rangerrecon, // DKS Sniper rifle, .44 SA Revolver
     /datum/outfit/loadout/rangertrail, // Trail carbine, 2 x .357 Revolvers
-    /datum/outfit/loadout/rangerpatrol, // Lever action, .44 SA Revolver
+    /datum/outfit/loadout/rangerpatrol, // Trench Shotgun, .44 SA Revolver
     /datum/outfit/loadout/rangerpatrolcqb, // 10mm, .44 Snubnose revolver
 	)
 
@@ -695,7 +696,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/f13/ranger
 	uniform	= /obj/item/clothing/under/f13/ranger/patrol
 	belt = /obj/item/storage/belt/military/assault/ncr
-	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+	suit_store = /obj/item/gun/ballistic/shotgun/trench
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck = 2,
 		/obj/item/clothing/head/helmet/f13/combat/ncr_patrol = 1,
@@ -768,9 +769,9 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13heavytrooper/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/ncr/heavytrooper/set1, \ //minigun
-		/obj/item/storage/box/gunbox/ncr/heavytrooper/set2, \ //r84
-		/obj/item/storage/box/gunbox/ncr/heavytrooper/set3, \ //flamethrower
+		/obj/item/storage/box/gunbox/ncr/heavytrooper/set1, //minigun
+		/obj/item/storage/box/gunbox/ncr/heavytrooper/set2, //r84
+		/obj/item/storage/box/gunbox/ncr/heavytrooper/set3, //flamethrower
 		/obj/item/storage/box/gunbox/ncr/heavytrooper/set4) //supersledge
 
 
@@ -1030,9 +1031,9 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13corporal/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/ncr/corporal/set1, \ //marksman, ninemil, legholster
-		/obj/item/storage/box/gunbox/ncr/corporal/set2, \ //greasegun
-		/obj/item/storage/box/gunbox/ncr/corporal/set3, \ //hunting shotgun
+		/obj/item/storage/box/gunbox/ncr/corporal/set1, //marksman, ninemil, legholster
+		/obj/item/storage/box/gunbox/ncr/corporal/set2, //greasegun
+		/obj/item/storage/box/gunbox/ncr/corporal/set3, //hunting shotgun
 		/obj/item/storage/box/gunbox/ncr/corporal/set4) //m1carbine compact, binoculars
 
 	head = pick(
@@ -1045,8 +1046,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/job/ncr/f13trooper
 	title = "NCR Trooper"
 	flag = F13TROOPER
-	total_positions = 6
-	spawn_positions = 6
+	total_positions = 4
+	spawn_positions = 4
 	description = "You are a professional soldier of the NCR Army. Obey your the NCOs and officers, no matter what you are expected to follow military discipline."
 	supervisors = "Corporals and Above"
 	selection_color = "#fff5cc"
@@ -1087,7 +1088,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13trooper/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/ncr/trooper/set1, \ //service rifle
+		/obj/item/storage/box/gunbox/ncr/trooper/set1, //service rifle
 		/obj/item/storage/box/gunbox/ncr/trooper/set2) //m1carbine
 
 
@@ -1096,8 +1097,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/job/ncr/f13conscript
 	title = "NCR Conscript"
 	flag = F13CONSCRIPT
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 5
+	spawn_positions = 5
 	description = "You are the recent bulk of the NCR Army. You have been recently conscripted, given little to no training and were issued a gun. Obey your the NCOs and officers, no matter what you are expected to follow military discipline."
 	supervisors = "SEA, Corporals and Above"
 	selection_color = "#fff5cc"
@@ -1128,9 +1129,9 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13conscript/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/ncr/conscript/set1, \ //double barrel, trench shovel
-		/obj/item/storage/box/gunbox/ncr/conscript/set2, \ //autopipe, trench shovel
-		/obj/item/storage/box/gunbox/ncr/conscript/set3, \ //varmint, bayonet
+		/obj/item/storage/box/gunbox/ncr/conscript/set1, //double barrel, trench shovel
+		/obj/item/storage/box/gunbox/ncr/conscript/set2, //hunting rifle, trench shovel
+		/obj/item/storage/box/gunbox/ncr/conscript/set3, //varmint, bayonet
 		/obj/item/storage/box/gunbox/ncr/conscript/set4) //service rifle, bayonet
 
 
