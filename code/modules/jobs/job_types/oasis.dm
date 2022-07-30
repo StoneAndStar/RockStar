@@ -514,8 +514,8 @@ Mayor
 	title = "Town Doctor"
 	flag = F13TOWNDOCTOR
 	department_flag = DEP_OASIS
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "Oasis Government & Police Department"
 	description = "Handy with a scalpel and scanner, your expertise in the practice of medicine makes you an indispensible asset to the Town. Because you are independent, you are free to pick your patients and charge for your work."
 	selection_color = "#dcba97"
