@@ -29911,7 +29911,7 @@
 /area/f13/farmhouse)
 "dvj" = (
 /obj/machinery/door/poddoor/shutters{
-	id = factoryshutters;
+	id = "factoryshutters";
 	name = "Factory gate shutters"
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -34367,7 +34367,7 @@
 /area/f13/mountain_bunker)
 "kgF" = (
 /obj/machinery/door/poddoor/shutters{
-	id = factoryshutters;
+	id = "factoryshutters";
 	name = "Factory gate shutters"
 	},
 /turf/open/indestructible/ground/outside/road,
