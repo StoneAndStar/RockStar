@@ -132,16 +132,6 @@
 /obj/structure/flora/rock/pile/largejungle,
 /turf/open/indestructible/ground/outside/water,
 /area/f13/tunnel)
-"aqw" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion{
-	faction = list("raider");
-	name = "Crazed Legionnaire"
-	},
-/turf/open/floor/f13/wood{
-	icon_state = "housewood4-broken"
-	},
-/area/f13/building)
 "aqB" = (
 /obj/machinery/power/smes{
 	charge = 5e+006;
@@ -636,6 +626,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/f13/store,
 /area/f13/building)
+"aWL" = (
+/turf/open/floor/mineral/uranium,
+/area/f13/building)
 "aWZ" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress4"
@@ -657,6 +650,11 @@
 /obj/structure/wreck/trash/machinepiletwo,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"aYJ" = (
+/obj/structure/chair/bench,
+/mob/living/simple_animal/hostile/legion/prime,
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "aYK" = (
 /obj/structure/fence/wooden{
 	pixel_x = -10
@@ -677,6 +675,10 @@
 	pixel_y = 12
 	},
 /turf/open/floor/carpet/red,
+/area/f13/building)
+"aZy" = (
+/obj/structure/simple_door/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "bao" = (
 /turf/open/indestructible/ground/outside/road{
@@ -871,7 +873,7 @@
 "btu" = (
 /obj/item/storage/trash_stack,
 /obj/item/circuitboard/machine/chem_dispenser/drinks/beer,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "btZ" = (
 /obj/machinery/door/window{
@@ -928,6 +930,12 @@
 	},
 /turf/open/floor/wood,
 /area/f13/enclave)
+"bxs" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/mineral/uranium,
+/area/f13/building)
 "bxF" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/bunker)
@@ -1298,16 +1306,6 @@
 /area/f13/bunker)
 "bXZ" = (
 /turf/open/floor/wood/wood_large,
-/area/f13/building)
-"bYm" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion/prime{
-	faction = list("raider");
-	name = "Crazed Legion Prime"
-	},
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2-broken"
-	},
 /area/f13/building)
 "bYA" = (
 /obj/structure/table,
@@ -2195,10 +2193,7 @@
 /area/f13/building)
 "daE" = (
 /obj/structure/chair/bench,
-/mob/living/simple_animal/hostile/legion/decan{
-	faction = list("raider");
-	name = "Crazed Legion Decanus"
-	},
+/mob/living/simple_animal/hostile/legion/decan,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "daM" = (
@@ -2280,7 +2275,7 @@
 "dkT" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/mechanical/old,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "dln" = (
 /obj/structure/fence/wooden{
@@ -2605,6 +2600,10 @@
 	},
 /turf/open/floor/wood,
 /area/f13/building)
+"dID" = (
+/mob/living/simple_animal/hostile/legion,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "dIV" = (
 /obj/structure/chair/sofa/right{
 	dir = 4
@@ -2667,7 +2666,6 @@
 "dMR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/settler,
-/obj/effect/spawner/lootdrop/f13/cash_legion_low,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "dNd" = (
@@ -3183,7 +3181,7 @@
 /obj/item/stack/sheet/mineral/uranium{
 	amount = 25
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "evg" = (
 /turf/open/indestructible/ground/outside/desert{
@@ -3196,10 +3194,7 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "evw" = (
-/mob/living/simple_animal/hostile/legion{
-	faction = list("raider");
-	name = "Crazed Legionnaire"
-	},
+/mob/living/simple_animal/hostile/legion/prime,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "evG" = (
@@ -3214,7 +3209,7 @@
 /area/f13/sewer)
 "ewp" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "ewA" = (
 /turf/open/floor/wood/f13/carpet,
@@ -3296,7 +3291,7 @@
 "eDl" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "eDB" = (
 /obj/structure/table/wood/bar,
@@ -3926,10 +3921,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion{
-	faction = list("raider");
-	name = "Crazed Legionnaire"
-	},
+/mob/living/simple_animal/hostile/legion,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fAK" = (
@@ -4112,7 +4104,7 @@
 "fLf" = (
 /obj/structure/table/wood/settler,
 /obj/item/book/granter/crafting_recipe/gunsmithing/gunsmith_one,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "fLV" = (
 /obj/machinery/autolathe,
@@ -4170,6 +4162,11 @@
 	name = "pool water"
 	},
 /area/f13/building)
+"fPt" = (
+/mob/living/simple_animal/hostile/legion/prime,
+/obj/structure/chair/bench,
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "fPK" = (
 /obj/structure/chair/office/dark,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -4215,6 +4212,10 @@
 	desc = "Deep, filtered pool water.";
 	name = "pool water"
 	},
+/area/f13/building)
+"fUb" = (
+/mob/living/simple_animal/hostile/legion/prime,
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fUC" = (
 /turf/closed/mineral/random/low_chance,
@@ -4479,7 +4480,7 @@
 "gnr" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/metal/twenty,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "gnw" = (
 /obj/structure/barricade/wooden,
@@ -4508,6 +4509,15 @@
 /obj/machinery/seed_extractor,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/tunnel)
+"goB" = (
+/mob/living/simple_animal/hostile/legion/decan{
+	health = 700;
+	melee_damage_lower = 50;
+	melee_damage_upper = 70;
+	name = "Mighty Decanus"
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "goD" = (
 /obj/structure/simple_door/bunker,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -5168,7 +5178,7 @@
 /area/f13/tunnel)
 "hgk" = (
 /obj/item/flashlight/flare/torch,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "hhd" = (
 /obj/structure/table/wood/settler,
@@ -6014,10 +6024,7 @@
 /obj/machinery/shower{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/legion{
-	faction = list("raider");
-	name = "Crazed Legionnaire"
-	},
+/mob/living/simple_animal/hostile/legion/prime,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -6029,7 +6036,7 @@
 /area/f13/building)
 "iho" = (
 /obj/machinery/power/port_gen/pacman/super,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "ihE" = (
 /obj/structure/rack,
@@ -6192,7 +6199,7 @@
 /area/f13/enclave)
 "irn" = (
 /mob/living/simple_animal/hostile/ghoul,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "itk" = (
 /obj/structure/closet/crate/wooden,
@@ -6985,6 +6992,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess,
 /area/f13/building)
+"jtB" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/legion/prime,
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "jtV" = (
 /obj/structure/table,
 /obj/item/construction/rld,
@@ -7005,7 +7020,7 @@
 "juq" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/microwave,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "juE" = (
 /obj/structure/flora/grass/wasteland{
@@ -7105,7 +7120,7 @@
 	dir = 8
 	},
 /mob/living/simple_animal/hostile/ghoul,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "jAz" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -7714,13 +7729,6 @@
 /obj/machinery/autolathe,
 /turf/open/floor/wood/f13/oak,
 /area/f13/tunnel)
-"knM" = (
-/mob/living/simple_animal/hostile/legion/prime{
-	faction = list("raider");
-	name = "Crazed Legion Prime"
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "knX" = (
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor2"
@@ -8087,7 +8095,7 @@
 /obj/item/ammo_box/m44,
 /obj/item/ammo_box/m44,
 /obj/item/clothing/suit/armor/f13/raider/combatduster/patrolduster{
-	armor = list("melee"=45,"bullet"=60,"laser"=25,"bio"=0,"rad"=0,"fire"=25,"acid"=25);
+	armor = list("melee" = 45, "bullet" = 60, "laser" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25);
 	name = "Lawman Duster"
 	},
 /turf/open/floor/plating/tunnel{
@@ -8154,7 +8162,7 @@
 "kMj" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/lootdrop/f13/armor/clothes,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "kMS" = (
 /obj/machinery/door/airlock/hatch{
@@ -8218,7 +8226,7 @@
 /area/f13/building)
 "kSu" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "kSW" = (
 /obj/effect/decal/cleanable/oil/slippery,
@@ -8546,8 +8554,10 @@
 /area/f13/sewer)
 "lkf" = (
 /mob/living/simple_animal/hostile/legion/decan{
-	faction = list("raider");
-	name = "Crazed Legion Decanus"
+	health = 700;
+	melee_damage_lower = 50;
+	melee_damage_upper = 70;
+	name = "Mighty Decanus"
 	},
 /turf/open/floor/wood/f13/oak{
 	icon_state = "oakfloor3-broken"
@@ -8622,7 +8632,7 @@
 "lqb" = (
 /obj/structure/table/wood/settler,
 /obj/item/flashlight/lamp,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "lqf" = (
 /obj/effect/decal/remains{
@@ -9136,6 +9146,10 @@
 /obj/structure/simple_door/room,
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
+"meQ" = (
+/obj/structure/table/wood/settler,
+/turf/open/floor/mineral/uranium,
+/area/f13/building)
 "meX" = (
 /obj/effect/mob_spawn/human/corpse/raiderboss,
 /turf/open/floor/f13{
@@ -9185,10 +9199,7 @@
 /obj/machinery/shower{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/legion/prime{
-	faction = list("raider");
-	name = "Crazed Legion Prime"
-	},
+/mob/living/simple_animal/hostile/legion/prime,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -9561,7 +9572,7 @@
 /area/f13/enclave)
 "mJG" = (
 /mob/living/simple_animal/hostile/ghoul/reaver,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "mJM" = (
 /obj/structure/rack,
@@ -9742,7 +9753,7 @@
 /area/f13/enclave)
 "mYe" = (
 /obj/item/reagent_containers/glass/bucket,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "mYG" = (
 /turf/closed/indestructible/vaultdoor,
@@ -10072,10 +10083,7 @@
 /obj/machinery/shower{
 	pixel_y = 16
 	},
-/mob/living/simple_animal/hostile/legion/prime{
-	faction = list("raider");
-	name = "Crazed Legion Prime"
-	},
+/mob/living/simple_animal/hostile/legion/prime,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -10694,7 +10702,7 @@
 /area/f13/enclave)
 "obN" = (
 /obj/structure/bed/mattress,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "ocH" = (
 /obj/machinery/door/airlock/vault,
@@ -10759,19 +10767,8 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion/prime{
-	faction = list("raider");
-	name = "Crazed Legion Prime"
-	},
+/mob/living/simple_animal/hostile/legion,
 /turf/open/floor/wood/f13/oak,
-/area/f13/building)
-"ofN" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion/decan{
-	faction = list("raider");
-	name = "Crazed Legion Decanus"
-	},
-/turf/open/floor/f13/wood,
 /area/f13/building)
 "ofX" = (
 /obj/structure/closet/cabinet,
@@ -10965,6 +10962,10 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/bunker)
+"orT" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/mineral/uranium,
+/area/f13/building)
 "osj" = (
 /obj/structure/sign/poster/contraband/punch_shit,
 /turf/closed/wall/mineral/concrete,
@@ -11592,7 +11593,7 @@
 "pkN" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /mob/living/simple_animal/hostile/ghoul,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "plQ" = (
 /obj/structure/cable{
@@ -12097,7 +12098,7 @@
 /area/f13/bunker)
 "pMs" = (
 /obj/structure/chair/wood,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "pML" = (
 /obj/structure/table,
@@ -12692,7 +12693,7 @@
 "qvE" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/chem_dispenser/drinks,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "qxk" = (
 /obj/structure/disposalpipe/segment{
@@ -13358,7 +13359,7 @@
 	name = "Legionized combat armor"
 	},
 /obj/item/clothing/suit/armor/f13/legion/vet/explorercanada{
-	armor = list("melee"=60,"bullet"=50,"laser"=45,"energy"=10,"bomb"=40,"bio"=20,"rad"=20,"fire"=25,"acid"=0,"wound"=40);
+	armor = list("melee" = 60, "bullet" = 50, "laser" = 45, "energy" = 10, "bomb" = 40, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40);
 	name = "Obsidian legion armor"
 	},
 /obj/item/clothing/under/f13/exile/legion,
@@ -13499,7 +13500,7 @@
 /obj/structure/sink/kitchen{
 	pixel_y = 27
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "rwJ" = (
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -13587,10 +13588,7 @@
 	},
 /area/f13/enclave)
 "rCv" = (
-/mob/living/simple_animal/hostile/legion/decan{
-	faction = list("raider");
-	name = "Crazed Legion Decanus"
-	},
+/mob/living/simple_animal/hostile/legion/decan,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "rCB" = (
@@ -14075,10 +14073,7 @@
 	},
 /area/f13/building)
 "sco" = (
-/mob/living/simple_animal/hostile/legion{
-	faction = list("raider");
-	name = "Crazed Legionnaire"
-	},
+/mob/living/simple_animal/hostile/legion,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "scI" = (
@@ -14359,10 +14354,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion/decan{
-	faction = list("raider");
-	name = "Crazed Legion Decanus"
-	},
+/mob/living/simple_animal/hostile/legion/decan,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "ssY" = (
@@ -15320,7 +15312,7 @@
 "twS" = (
 /obj/structure/chair/stool/bar,
 /mob/living/simple_animal/hostile/ghoul,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "txj" = (
 /obj/structure/cable{
@@ -16090,7 +16082,7 @@
 /area/f13/building)
 "urK" = (
 /obj/structure/chair/stool/bar,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "urO" = (
 /obj/structure/rack,
@@ -16397,10 +16389,7 @@
 /turf/open/floor/wood,
 /area/f13/enclave)
 "uJX" = (
-/mob/living/simple_animal/hostile/legion/decan{
-	faction = list("raider");
-	name = "Crazed Legion Decanus"
-	},
+/mob/living/simple_animal/hostile/legion/decan,
 /turf/open/floor/wood/f13/oak{
 	icon_state = "oakfloor1-broken"
 	},
@@ -16970,10 +16959,7 @@
 /obj/structure/chair/wood{
 	dir = 8
 	},
-/mob/living/simple_animal/hostile/legion{
-	faction = list("raider");
-	name = "Crazed Legionnaire"
-	},
+/mob/living/simple_animal/hostile/legion,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "vpq" = (
@@ -17215,7 +17201,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/settler,
-/obj/effect/spawner/lootdrop/f13/cash_legion_high,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "vCF" = (
@@ -17486,14 +17471,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
-"vOO" = (
-/obj/structure/chair/bench,
-/mob/living/simple_animal/hostile/legion/prime{
-	faction = list("raider");
-	name = "Crazed Legion Prime"
-	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "vPq" = (
 /obj/structure/anvil/obtainable/table,
 /obj/item/twohanded/sledgehammer/simple,
@@ -18021,7 +17998,7 @@
 /obj/structure/chair/wood{
 	dir = 4
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "wxw" = (
 /obj/structure/flora/junglebush/large,
@@ -18112,10 +18089,7 @@
 	},
 /area/f13/enclave)
 "wCK" = (
-/mob/living/simple_animal/hostile/legion/prime{
-	faction = list("raider");
-	name = "Crazed Legion Prime"
-	},
+/mob/living/simple_animal/hostile/legion/prime,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2-broken"
 	},
@@ -18130,7 +18104,7 @@
 /obj/structure/rack,
 /obj/item/electronics/apc,
 /obj/item/stack/cable_coil,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "wEz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -18658,10 +18632,7 @@
 /area/f13/tunnel)
 "xjp" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/legion{
-	faction = list("raider");
-	name = "Crazed Legionnaire"
-	},
+/mob/living/simple_animal/hostile/legion/prime,
 /turf/open/floor/carpet/black,
 /area/f13/building)
 "xjv" = (
@@ -18733,10 +18704,7 @@
 /area/f13/enclave)
 "xpG" = (
 /obj/structure/chair/bench,
-/mob/living/simple_animal/hostile/legion{
-	faction = list("raider");
-	name = "Crazed Legionnaire"
-	},
+/mob/living/simple_animal/hostile/legion,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "xpW" = (
@@ -18778,10 +18746,7 @@
 /obj/machinery/shower{
 	pixel_y = 16
 	},
-/mob/living/simple_animal/hostile/legion{
-	faction = list("raider");
-	name = "Crazed Legionnaire"
-	},
+/mob/living/simple_animal/hostile/legion/prime,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -18837,13 +18802,6 @@
 /turf/open/floor/f13{
 	icon_state = "greenrustyfull"
 	},
-/area/f13/building)
-"xuh" = (
-/mob/living/simple_animal/hostile/legion/prime{
-	faction = list("raider");
-	name = "Crazed Legion Prime"
-	},
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "xvc" = (
 /obj/structure/barricade/tentclothedge{
@@ -56386,7 +56344,7 @@ qRr
 nES
 nES
 ijc
-knM
+evw
 nES
 tlo
 aJA
@@ -60406,9 +60364,9 @@ tkc
 sCp
 nES
 nES
-knM
+dID
 nES
-evw
+dID
 nES
 aJA
 geC
@@ -61219,7 +61177,7 @@ geC
 dDg
 fKf
 dDg
-xuh
+fUb
 kmV
 lNq
 dDg
@@ -64436,7 +64394,7 @@ nCs
 aJA
 wfa
 dDg
-xuh
+rCv
 bVm
 wRc
 aJA
@@ -66012,7 +65970,7 @@ nCs
 nCs
 aJA
 xdF
-bYm
+evG
 jvi
 ila
 nkz
@@ -67228,7 +67186,7 @@ kHF
 nCs
 dDg
 buw
-xuh
+dDg
 nCs
 wRc
 nCs
@@ -68439,7 +68397,7 @@ oPR
 toe
 gCH
 dDg
-xuh
+sco
 dDg
 nCs
 npW
@@ -68857,7 +68815,7 @@ ugA
 geC
 dDg
 dDg
-xpG
+fPt
 aJA
 nCs
 wRc
@@ -69640,12 +69598,12 @@ kHF
 nCs
 dDg
 mOx
-rCv
+goB
 nCs
 wRc
 nCs
 dDg
-xuh
+sco
 dDg
 nCs
 rYL
@@ -69661,7 +69619,7 @@ ugA
 geC
 dDg
 dDg
-vOO
+aYJ
 aJA
 nCs
 wRc
@@ -70030,10 +69988,10 @@ nCs
 nCs
 fow
 gZz
-ofN
+vpK
 vCC
 nES
-aqw
+gZz
 nCs
 nkz
 nCs
@@ -70052,7 +70010,7 @@ dDg
 nCs
 ujB
 nYv
-ofc
+jtB
 ujB
 vpg
 oFL
@@ -70867,7 +70825,7 @@ dDg
 geC
 dDg
 dDg
-sco
+fUb
 aJA
 nCs
 wRc
@@ -71637,7 +71595,7 @@ nkz
 nCs
 nCs
 ptZ
-evw
+nES
 vpK
 xwW
 tNT
@@ -83146,20 +83104,20 @@ fUC
 fUC
 fUC
 aJA
-qHU
-nES
-nES
+meQ
+aWL
+aWL
 obN
 aJA
 fUC
 aJA
-nES
+aWL
 wxv
-nES
-nES
-nES
-nES
-nES
+aWL
+aWL
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -83548,20 +83506,20 @@ dPp
 fUC
 fUC
 aJA
-qHU
-nES
-nES
+meQ
+aWL
+aWL
 obN
 aJA
 fUC
 aJA
 pMs
 lqb
-nES
+aWL
 mJG
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -83950,20 +83908,20 @@ dPp
 fUC
 fUC
 aJA
-qHU
-nES
-nES
+meQ
+aWL
+aWL
 obN
 aJA
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 hgk
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -84352,20 +84310,20 @@ fUC
 fUC
 fUC
 aJA
-qHU
+meQ
 mJG
-nES
+aWL
 obN
 aJA
 fUC
 aJA
-nES
-nES
-nES
-nES
-nES
-nES
-nES
+aWL
+aWL
+aWL
+aWL
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -84754,9 +84712,9 @@ fUC
 fUC
 fUC
 aJA
-qHU
-nES
-nES
+meQ
+aWL
+aWL
 obN
 aJA
 fUC
@@ -84766,7 +84724,7 @@ aJA
 tya
 aJA
 aJA
-tya
+aZy
 aJA
 aJA
 fUC
@@ -85156,8 +85114,8 @@ fUC
 fUC
 fUC
 aJA
-qHU
-nES
+meQ
+aWL
 hgk
 obN
 aJA
@@ -85558,9 +85516,9 @@ fUC
 fUC
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 aJA
 fUC
@@ -85960,9 +85918,9 @@ fUC
 fUC
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 tya
 uDw
 uDw
@@ -87564,11 +87522,11 @@ aJA
 aGm
 ptZ
 tya
-nES
-nES
-nES
-nES
-nES
+aWL
+aWL
+aWL
+aWL
+aWL
 wxv
 aJA
 uDw
@@ -87966,12 +87924,12 @@ aJA
 ckj
 nES
 aJA
-nES
-nES
-nES
-nES
-nES
-qHU
+aWL
+aWL
+aWL
+aWL
+aWL
+meQ
 aJA
 uDw
 uDw
@@ -88368,11 +88326,11 @@ aJA
 aJA
 aJA
 aJA
-nES
+aWL
 eDl
 eDl
 urK
-nES
+aWL
 jzF
 aJA
 uDw
@@ -88771,13 +88729,13 @@ fUC
 fUC
 aJA
 rwq
-nES
+aWL
 lqb
-nES
-nES
-nES
+aWL
+aWL
+aWL
 tya
-njv
+uDw
 uDw
 uDw
 uDw
@@ -89172,12 +89130,12 @@ fUC
 fUC
 fUC
 aJA
-qHU
+meQ
 kSu
 eDl
 urK
-nES
-nES
+aWL
+aWL
 aJA
 uDw
 uDw
@@ -89574,12 +89532,12 @@ fUC
 fUC
 fUC
 aJA
-qHU
+meQ
 kSu
 fLf
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 uDw
 uDw
@@ -89980,7 +89938,7 @@ qvE
 pkN
 eDl
 urK
-nES
+aWL
 wxv
 aJA
 cWR
@@ -89993,8 +89951,8 @@ uDw
 uDw
 uDw
 aJA
-nES
-nES
+aWL
+aWL
 eJU
 eJU
 eJU
@@ -90378,12 +90336,12 @@ fUC
 fUC
 fUC
 aJA
-qHU
+meQ
 kSu
 lqb
-nES
-nES
-qHU
+aWL
+aWL
+meQ
 aJA
 uDw
 uDw
@@ -90395,9 +90353,9 @@ uDw
 hQg
 uDw
 tya
-nES
-nES
-nES
+aWL
+aWL
+aWL
 iho
 eJU
 cDs
@@ -90781,11 +90739,11 @@ fUC
 fUC
 aJA
 juq
-nES
-qHU
+aWL
+meQ
 twS
-nES
-rcK
+aWL
+bxs
 aJA
 uDw
 uDw
@@ -90797,10 +90755,10 @@ uDw
 uDw
 uDw
 aJA
-nES
+aWL
 btu
-nES
-nES
+aWL
+aWL
 eJU
 cDs
 cDs
@@ -91199,10 +91157,10 @@ uDw
 hbt
 uDw
 aJA
-nES
-nES
-nES
-nES
+aWL
+aWL
+aWL
+aWL
 eJU
 cDs
 cDs
@@ -92391,10 +92349,10 @@ fUC
 fUC
 aJA
 obN
-nES
+aWL
 tya
-nES
-nES
+aWL
+aWL
 tya
 uDw
 uDw
@@ -92792,11 +92750,11 @@ dPp
 fUC
 fUC
 aJA
-oUY
+orT
 mYe
 aJA
-nES
-nES
+aWL
+aWL
 aJA
 aJA
 aJA
@@ -93197,18 +93155,18 @@ aJA
 aJA
 aJA
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 wxv
 aJA
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
-oUY
+orT
 obN
 aJA
 fUC
@@ -93597,21 +93555,21 @@ fUC
 fUC
 aJA
 obN
-nES
+aWL
 tya
 irn
-nES
-nES
-qHU
+aWL
+aWL
+meQ
 aJA
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 mYe
-nES
+aWL
 aJA
 fUC
 fUC
@@ -93998,19 +93956,19 @@ fUC
 fUC
 fUC
 aJA
-oUY
+orT
 mYe
 aJA
-nES
+aWL
 hgk
-nES
-rcK
+aWL
+bxs
 aJA
 fUC
 aJA
-nES
+aWL
 mJG
-nES
+aWL
 aJA
 aJA
 tya
@@ -94403,19 +94361,19 @@ aJA
 aJA
 aJA
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 wxv
 aJA
 fUC
 aJA
 lqb
-nES
+aWL
 hgk
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -94803,21 +94761,21 @@ fUC
 fUC
 aJA
 obN
-nES
+aWL
 tya
-nES
-nES
+aWL
+aWL
 irn
-qHU
+meQ
 aJA
 fUC
 aJA
-rcK
-nES
-nES
-nES
-nES
-nES
+bxs
+aWL
+aWL
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -95204,13 +95162,13 @@ fUC
 fUC
 fUC
 aJA
-oUY
+orT
 mYe
 aJA
-nES
-nES
-nES
-rcK
+aWL
+aWL
+aWL
+bxs
 aJA
 fUC
 aJA
